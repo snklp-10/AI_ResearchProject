@@ -1,1 +1,1 @@
-# AI_ResearchProject
+This repository documents an ongoing AI research project focused on the development and exploration of large language models (LLMs). Our work aims to push the boundaries of natural language understanding and generation by investigating transformer architectures, scaling laws, and emergent capabilities in high-parameter regimes. We are building efficient training pipelines, experimenting with fine-tuning strategies, and evaluating model performance across multilingual, multimodal, and domain-specific tasks.
