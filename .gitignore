@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+#json output files
+ai_classification.json
+canine_thorax_prompt.json
+
+ResearchProject/ai_classification.json
+ResearchProject/canine_thorax_prompt.json
