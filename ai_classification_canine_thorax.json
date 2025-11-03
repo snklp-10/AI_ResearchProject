@@ -1,0 +1,1365 @@
+[
+  {
+    "row_id": 1,
+    "radiologist_report": "Three orthogonal thoracic radiographs dated 29th September 2024 are available for review. There are no previous radiographs available for comparison. \n\n\n\nAirway findings: A smoothly marginated soft tissue opacity is variably present overlying the dorsal aspect of the trachea at the thoracic inlet. This opacity reduces approximately 50% of the dorsoventral diameter of the trachea. The intrathoracic trachea is normal. Within the lung parenchyma there is a mixed bronchointerstitial opacification, predominantly caudal dorsally. The mainstem bronchi taper poorly. There is mild focal interstitial opacification in the left cranial lung lobe adjacent to the rib sections, however some obliquity is present. No associated osteolysis of the ribs is seen.\n\n\n\nCardiovascular findings: The cardiac silhouette is normal in shape, size and margination. The cranial and caudal pulmonary vasculature is normal. The caudal vena cava is normal. The aorta and mainstem pulmonary artery have a normal outline in the vd/dv l image.\n\n\n\nMediastinum and pleural space: There is some ventral pleural fat accumulation.\n\n\n\nMusculoskeletal findings: No significant abnormalities are detected.\n\n\n\nIncluded abdomen: No significant abnormalities are detected.",
+    "ai_report": "1.MILD BRONCHOINTERSTITIAL PULMONARY PATTERN; MILD DYNAMIC AIRWAY DISEASE; ATELECTASIS or less likely, pneumonia.\n\n2.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)\n\n3.Are respiratory signs present? If YES.\n\n4.Are respiratory signs present? If NO.\n\n5.The evaluation has come up positive for a pulmonary nodular pattern.\n\n6.The cardiac silhouette size is normal.",
+    "results": {
+      "tp": ["bronchitis", "interstitial", "diseased_lungs"],
+      "fp": ["pneumonia", "pulmonary_nodules", "pulmonary_hypoinflation"],
+      "tn": [
+        "perihilar_infiltrate",
+        "hypo_plastic_trachea",
+        "focal_perihilar",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": ["focal_caudodorsal_lung", "bronchiectasis"]
+    }
+  },
+  {
+    "row_id": 2,
+    "radiologist_report": "Study:\n\nThoracic radiography: three images dated September 29, 2024\n\nA right lateral projection of the abdomen is also present in the study.\n\n\n\nFindings:\n\nThe cardiac silhouette is normal in size and shape. The pulmonary vasculature is normal in size. There is a mild generalized bronchointerstitial pulmonary pattern. No pulmonary nodules or masses are present. On the VD view, there is a thin pleural fissure line between the right cranial and middle lung lobes. There is no intrathoracic lymphadenopathy. There is mild T 12-T 13 spondylosis deformans. There is a small soft tissue opaque nodule in the subcutaneous tissues of the caudodorsal cervical region\n\n\n\nComments:\n\nPlease the other submission for interpretation of the abdomen.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of INTERSTITIAL or ALVEOLAR PATTERN, BRONCHITIS, PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PLEURAL EFFUSION.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": ["bronchitis", "interstitial", "diseased_lungs"]
+    }
+  },
+  {
+    "row_id": 3,
+    "radiologist_report": "Study:\n\nAbdominal radiography: three images dated September 29, 2024\n\n\n\nFindings:\n\nThe abdominal serosal detail is normal. The stomach contains a small volume of gas. There is a, likely clinically insignificant, punctate mineral focus in a small intestinal segment in the right mid abdomen The small intestines are otherwise normal in size, course and content. The colon contains gas and a small amount of poorly formed fecal material. The liver and spleen are normal in size and margin. The renal silhouettes are normal in size and shape. The urinary bladder is normal in size and opacity. There is no prostatomegaly. The included thorax is normal. There is moderate bilateral stifle periarticular bone formation.",
+    "ai_report": "1.Are respiratory signs present? If YES.\n\n\n2.Are respiratory signs present? If YES.\n\n\n3.AI linked bronchitis disease treatment in dogs and cats: https://platform.v2.vetology.net/doc/bacterial-bronchitis-in-dogs-and-cats\n\n\n4.Are respiratory signs present? If NO.\n\n\n5.Are respiratory signs present? If NO.\n\n\n6.The cardiac silhouette size is normal.\n\n\n7.MODERATE BRONCHIAL PATTERN, MILD DYNAMIC AIRWAY DISEASE, MILD, DIFFUSE INTERSTITIAL PATTERN WITH A SLIGHTLY MORE PRONOUNCED PERIHILAR INFILTRATE.\n\n\n8.MODERATE BRONCHOINTERSTITIAL PULMONARY PATTERN; ALVEOLAR INFILTRATE or ATELECTASIS; DYNAMIC AIRWAY DISEASE.\n\n\n9.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is HIGH (75%)\n\n\n10.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratorysigns is MEDIUM (50%)\n\n\n11.Pleural fissure lines or moderate to severe pleural effusion has been detected. An overlying skin fold or in an obese animal, excessive pericardial fat could artifactually mimic the result of severe pleural effusion.",
+    "results": {
+      "tp": [],
+      "fp": [
+        "perihilar_infiltrate",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "pleural_effusion"
+      ],
+      "tn": [
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 4,
+    "radiologist_report": "Patient Name : Aria Davis, Date of study: Sep 28, 2024\n7 images are provided for review\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A minimal to mild diffuse interstitial pattern is present. The lungs are hypoinflated.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is symmetrically widened in the ventrodorsal image, without obvious increased soft tissue in the lateral images.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nLiver: The liver is mildly small with cranial displacement of the gastric axis.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The kidneys are partially obscured without obvious enlargement or mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nReproductive: No obvious uterine horn enlargement or obvious increased soft tissue in the region of the uterine stump.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a moderate volume of gas and soft tissue material. The stomach is within normal limits for size.\nThe small intestine contains mild gas with a subjectively uniform population for size. \nThe colon contains moderate gas and mild soft tissue material. The colon is within normal limits for size. \n\nMusculoskeletal: Multiple prominent nipples are present and these superimpose over the caudal lung/cranial abdomen in the ventrodorsal image. A fat opaque, broad-based nodule arises from the mid-ventral abdominal body wall. Multiple metal staples are in the ventral abdominal body wall adjacent to the fat opaque nodule. Bilateral stifle osteoarthrosis is present. The remaining included musculoskeletal structures are normal.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.A mild bronchointerstitial pulmonary pattern and minimal perihilar infiltrate have been detected.",
+    "results": {
+      "tp": ["interstitial", "diseased_lungs"],
+      "fp": ["perihilar_infiltrate", "focal_perihilar"],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": ["pulmonary_hypoinflation"]
+    }
+  },
+  {
+    "row_id": 5,
+    "radiologist_report": "Study:\n\nAbdominal radiography: three images dated September 28, 2024\n\n\n\nFindings:\n\nThe serosal detail is normal. The stomach contains gas with the pylorus appropriately gas-filled on the left lateral image. Some small intestinal segments contain a small amount of granular soft tissue material. The small intestines are normal in size and course. The colon contains gas and formed fecal material. The cecum is gas filled. The liver and spleen are normal in size and margin. The renal silhouettes are normal in size and shape. The urinary bladder is normal in size and opacity. There is no prostatomegaly. The included thorax is normal. The patient has multiple, breed associated, congenitally anomalous vertebrae. There is mild multifocal thoracic spondylosis deformans.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of BRONCHITIS, ALVEOLAR PATTERN, PERIHILAR INFILTRATE or DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.\n\n\n3.Pleural fissure lines or small volume pleural effusion has been detected. In a mildly overweight animal, excessive pericardial fat can artifactually mimic the result of minimal pleural effusion.",
+    "results": {
+      "tp": [],
+      "fp": ["pleural_effusion"],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 6,
+    "radiologist_report": "Study:\n\nThoracic and abdominal radiography: six images dated September 28, 2024\n\n\n\nFindings:\n\nThere is mild microcardia and attenuation of the pulmonary vasculature. There is mild narrowing of the caudal vena cava. The pulmonary parenchyma is unremarkable. No nodules or masses are present. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter. There is decreased serosal detail secondary to a moderate to severe amount of peritoneal effusion. The liver is mildly enlarged causing caudal displacement of the gastric axis. On the left lateral projection, the caudal margin of the liver has a rounded appearance on both lateral projections, there is the impression of an indistinct round soft tissue opaque mass in the caudal abdomen just cranial to the urinary bladder. The stomach contains unstructured heterogeneous soft tissue material presumed to be ingesta. The small intestines are normal in size and content. The colon contains gas and poorly formed fecal material. The renal silhouettes are normal in size and contour. The urinary bladder is normal in size and opacity. There is no prostatomegaly. There is mild L1-L2 spondylosis deformans.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of INTERSTITIAL or ALVEOLAR PATTERN, BRONCHITIS, PERIHILAR INFILTRATE or DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 7,
+    "radiologist_report": "Patient Name : brynn fair, Date of study: Sep 28, 2024\n3 images are provided for review\nThere are no previous radiographs for comparison.\n\nBones/Joints:\nA dens is present. There is no evidence of atlantoaxial joint subluxation. The C2-3 intervertebral disc space is possibly narrow in the lateral images, and ventrodorsal image.\nThere is no evidence of mineral over the intervertebral foramina. There is no evidence of intervertebral dorsal articulation osteoarthrosis.\n\nThere is no evidence of medullary sclerosis, osteolysis, endosteal scalloping, or periosteal proliferation.\n\nSoft tissues: The included paraspinal soft tissues are normal.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of ALVEOLAR PATTERN, PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS, PULMONARY NODULES or PLEURAL EFFUSION.\n\n\n3.A mild bronchial pattern has been detected.",
+    "results": {
+      "tp": ["bronchitis"],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "pulmonary_nodules",
+        "bronchiectasis",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 8,
+    "radiologist_report": "Study:\n\nThoracic/abdominal radiography: five images dated September 28, 2024\n\n\n\nFindings:\n\nThe cardiac silhouette is normal in size and shape. The pulmonary vasculature is normal in size. The pulmonary parenchyma is unremarkable. No pulmonary nodules or masses are present. The pleural space is normal. There is no intrathoracic lymphadenopathy. The larynx is normal. The trachea is normal in diameter and course. There is no lobar bronchi narrowing. There is no esophageal dilation. The stomach contains gas and a small amount of unstructured heterogeneous soft tissue material presumed to be ingesta. The small intestines are normal in size, course and content. The colon contains formed fecal material. The liver and spleen are normal in size and margin. The kidneys are normal in size and contour. The urinary bladder is normal in size and opacity. There is no prostatomegaly. The T 13 vertebra is transitional with bilateral hypoplastic ribs. The L7 vertebra also appears transitional on the lateral projections. There is narrowing of the L1-L2 intervertebral disc space with sclerotic endplates and moderate spondylosis deformans. There is mild to moderate bilateral elbow periarticular bone formation. The patient is of overweight body condition.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.No airway or pulmonary abnormalities have been detected. The lung parenchyma appears normal with no interstitial, alveolar, or bronchial pattern identified. No pulmonary nodules or pleural effusion detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 9,
+    "radiologist_report": "Study:\n\nThoracic radiography: three images dated September 28, 2024\n\n\n\nFindings:\n\nThere is severe left ventricular and left atrial enlargement. The pulmonary vasculature is normal in size. There is a mild to moderate multifocal unstructured interstitial in the ventral lung and perihilar/caudodorsal lung fields. A thin pleural fissure line is seen in the left fifth intercostal space on the VD view. A thin pleural fissure line is also seen superimposed with the cardiac silhouette on the lateral projections. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter. The larynx is unremarkable. There is no lobar bronchi narrowing. The included abdomen is normal. Mild periarticular bone formation is present at the caudodistal aspect the humeral head bilaterally.",
+    "ai_report": "1.SEVERE INTERSTITIAL TO ALVEOLAR PATTERN; SEVERE BRONCHIAL PATTERN; SEVERE DYNAMIC AIRWAY DISEASE.\n\n\n2.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is VERY HIGH (>75%)\n\n\n3.Are respiratory signs present? If YES.\n\n\n4.Are respiratory signs present? If NO.\n\n\n5.Pleural fissure lines or moderate to severe pleural effusion has been detected. An overlying skin fold or in an obese animal, excessive pericardial fat could artifactually mimic the result of severe pleural effusion.\n\n\n6.Severe cardiomegaly has been detected but Heart Failure is NOT suspected.",
+    "results": {
+      "tp": [
+        "perihilar_infiltrate",
+        "interstitial",
+        "diseased_lungs",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pleural_effusion",
+        "cardiomegaly",
+        "left_sided_cardiomegaly"
+      ],
+      "fp": ["pneumonia", "bronchitis"],
+      "tn": [
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "thoracic_lymphadenopathy",
+        "esophagitis"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 10,
+    "radiologist_report": "Patient Name : Anakin Koontz, Date of study: Sep 28, 2024\n7 images are provided for review\nThere are no previous radiographs for comparison.\n\nBones/Joints:\nMinimal bilateral coxofemroal joint osteoarthrosis is suspected as a rim of osteophytes at the junction of the femoral heads and necks. There is adequate coverage of the femoral heads by the acetabulums.\nThe left stifle has no evidence of osteoarthrosis.\nThe right stifle has no evidence of osteoarthrosis. \n\nL3-4 and L4-5 spondylosis deformans is present.\nL5-6 is slightly narrowed.\n\nThere is no evidence of medullary sclerosis, osteolysis, endosteal scalloping, or periosteal proliferation.\n\nSoft tissues: The included soft tissues are normal.",
+    "ai_report": "1.MODERATE DYNAMIC AIRWAY DISEASE; MILD to MODERATE INTERSTITIAL to ALVEOLAR INFILTRATE.\n\n\n2.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)\n\n\n3.Are respiratory signs present? If YES.\n\n\n4.Are respiratory signs present? If NO.\n\n\n5.A mild perihilar infiltrate has been detected.\n\n\n6.Pleural fissure lines or small volume pleural effusion has been detected. In a mildly overweight animal, excessive pericardial fat can artifactually mimic the result of minimal pleural effusion.\n\n\n7.Severe cardiomegaly has been detected but Heart Failure is NOT suspected.",
+    "results": {
+      "tp": [],
+      "fp": [
+        "perihilar_infiltrate",
+        "interstitial",
+        "diseased_lungs",
+        "focal_perihilar",
+        "pleural_effusion",
+        "cardiomegaly"
+      ],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 11,
+    "radiologist_report": "Abdomen: There are small granular mineral opacities within the colon as well as portions of the gastrointestinal tract. There is no evidence of an obstructive process. The liver and spleen are unremarkable. There are no abnormalities involving the visible portions of the urinary tract. Serosal detail is normal.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of BRONCHITIS, ALVEOLAR PATTERN, PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PULMONARY NODULES.\n\n\n3.Pleural fissure lines or small volume pleural effusion has been detected. In a mildly overweight animal, excessive pericardial fat can artifactually mimic the result of minimal pleural effusion.",
+    "results": {
+      "tp": ["pleural_effusion"],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "bronchitis",
+        "pulmonary_nodules",
+        "bronchiectasis",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 12,
+    "radiologist_report": "Study:\n\nThoracic radiography: orthogonal views (two images) dated September 27, 2024\n\n\n\nFindings:\n\nThe cardiac silhouette and pulmonary vasculature are normal in size. The pulmonary parenchyma is unremarkable. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter and course. The included abdomen is normal. The patient has multiple, breed associated, congenitally anomalous thoracic vertebrae.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.No airway or pulmonary abnormalities have been detected. The lung parenchyma appears normal with no interstitial, alveolar, or bronchial pattern identified. No pulmonary nodules or pleural effusion detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 13,
+    "radiologist_report": "Patient Name : Duke Khachadourian, Date of study: Sep 28, 2024\n6 images are provided for review\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A minimal diffuse bronchial and interstitial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nLiver: The liver is subjectively normal in size.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a moderate volume of gas and mild fluid. The stomach is within normal limits for size.\nThe small intestine contains mild soft tissue material admixed with gas with a subjectively uniform population for size. \nThe colon contains mild to moderate well-defined admixed soft tissue material and gas. The colon is within normal limits for size. \n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of INTERSTITIAL or ALVEOLAR PATTERN, BRONCHITIS, PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PLEURAL EFFUSION.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "hypo_plastic_trachea",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": ["bronchitis", "interstitial"]
+    }
+  },
+  {
+    "row_id": 14,
+    "radiologist_report": "Study:\n\nThoracic radiography: three images dated September 28, 2024\n\n\n\nFindings:\n\nThe cardiac silhouette is normal in size and shape. The pulmonary vasculature is normal in size. The pulmonary parenchyma is unremarkable. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter. The stomach contains heterogeneous soft tissue material presumed to be ingesta. There is mild to moderate multifocal spondylosis deformans. Mild periarticular bone formation is present at the caudodistal aspect the humeral head and infraglenoid tubercle of the scapula bilaterally.",
+    "ai_report": "1.A minimal perihilar infiltrate has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of BRONCHITIS, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PLEURAL EFFUSION.",
+    "results": {
+      "tp": [],
+      "fp": ["perihilar_infiltrate", "focal_perihilar"],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 15,
+    "radiologist_report": "Study:\n\nSpinal radiography (including the thorax and abdomen): orthogonal views dated September 28, 2024\n\n\n\nFindings:\n\nPatient positioning and beam distortion artifact the false impression of narrowing of the cervical intervertebral disc spaces. The thoracolumbar spine is unremarkable with no intervertebral disc space or foraminal narrowing. There is no evidence of discospondylitis. There are no vertebral fractures or luxations. The included appendicular skeletal structures are unremarkable. The cardiac silhouette and pulmonary vasculature are normal in size. The pulmonary parenchyma is unremarkable. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter and course. The stomach contains minimal. The small intestines are normal in size, course and content. The colon contains formed fecal material. The liver and spleen are normal in size and margin. The kidneys are not clearly visualized due to visceral crowding. The urinary bladder is normal in size and opacity.",
+    "ai_report": "1.A minimal interstitial pulmonary pattern with a concurrent, mild perihilar infiltrate have been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of ALVEOLAR PATTERN, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS, PULMONARY NODULES or PLEURAL EFFUSION.",
+    "results": {
+      "tp": [],
+      "fp": ["perihilar_infiltrate", "interstitial", "diseased_lungs"],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 16,
+    "radiologist_report": "Patient Name : BEAR EZELLE, Date of study: Sep 28, 2024\n4 images are provided for review\nThere are no previous radiographs for comparison.\n\nBones/Joints:\nThe T11-12 intervertebral disc space is slightly narrow in the more cranially centered images, similar to the anticlinal space (T10-11). This is less well-identified in the caudally centered images. In situ intervertebral disc mineral is suspected at T11-12, T12-13 and L6-7.\nThere is no evidence of mineral over the intervertebral foramina. There is no evidence of intervertebral dorsal articulation osteoarthrosis.\n\nThere is no evidence of medullary sclerosis, osteolysis, endosteal scalloping, or periosteal proliferation.\n\nSoft tissues: The included paraspinal soft tissues are normal.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of BRONCHITIS, ALVEOLAR PATTERN, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PULMONARY NODULES.\n\n\n3.A mild perihilar infiltrate has been detected.",
+    "results": {
+      "tp": ["perihilar_infiltrate", "focal_perihilar"],
+      "fp": [],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "pulmonary_nodules",
+        "bronchiectasis",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 17,
+    "radiologist_report": "6 images of the thorax are presented for review. The cardiovascular structures are normal. There is a diffuse interstitial pulmonary pattern that is considered appropriate for the age of the patient. No pulmonary nodules or enlarged intrathoracic lymph nodes are seen. The pleural and mediastinal structures are normal. Cranial abdominal detail is adequate.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.No airway or pulmonary abnormalities have been detected. The lung parenchyma appears normal with no interstitial, alveolar, or bronchial pattern identified. No pulmonary nodules or pleural effusion detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": ["interstitial"]
+    }
+  },
+  {
+    "row_id": 18,
+    "radiologist_report": "Patient Name : roxy linekin, Date of study: Sep 27, 2024\n7 images are provided for review\nThere are no previous radiographs for comparison.\n\nBones/Joints:\nThe coxofemoral joints have no obvious osteoarthrosis. There is adequate coverage of the femoral heads by the acetabulums.\nThe left stifle has no evidence of osteoarthrosis.\n\nIll-defined moth-eaten osteolysis is in the right distal femur. Smooth periosteal proliferation is at the craniodistal aspect of the right femoral diaphyseal cortex. The caudodistal margin of the right femoral metaphysis is undulat or has ill-defined periosteal proliferation.\nIll-defined increased soft tissue is suspected in or over the right infrapatellar fat pad.\n\nThe right stifle has no evidence of osteoarthrosis. \nThe included right tarsus is normal. \n\nSoft tissues: The soft tissues caudal to the right distal femur are mildly enlarged and superimpose over the right infrapatellar fat pad. The right gluteal and bilateral thigh soft tissues are severely small. The remaining included soft tissues are normal.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.No airway or pulmonary abnormalities have been detected. The lung parenchyma appears normal with no interstitial, alveolar, or bronchial pattern identified. No pulmonary nodules or pleural effusion detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 19,
+    "radiologist_report": "Patient Name : Poppy Ziesmer, Date of study: Sep 27, 2024\n2 images are provided for review\nCanine Abdomen (2 Images) - 2 Lateral\nThere are no previous radiographs for comparison.\n\nLiver: The liver is small with cranial dispalcement of the gastric axis.\nSpleen: The spleen is not identified but no splenomegaly is present.\nKidneys: The kidneys are subjectively normal in size, with few small superimposed mineral foci in the lateral images.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is enlarged and homogeneous soft tissue. This results in cranial and dorsal dispalcement of the small intestine and colon. \nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a moderate volume of gas and soft tissue material. The stomach is within normal limits for size.\nThe small intestine contains minimal gas and mild fluid or is empty with a subjectively uniform population for size. \nThe colon contains minimal fluid or is empty. The colon is dorsally displaced and compressed in a dorsoventral dimension by the enlarged urinary bladder.\n\nMusculoskeletal: T13-L1 and L1-2 intervertebral disc spaces are severely narrowed and mild kyphosis is present in this region as a result. The patient is thin with concave soft tissue between spinous processes. The remaining included musculoskeletal structures are normal.\nLimited thorax: Only in the left lateral image, a possible soft tissue nodule superimposes over the 2nd intercostal space.",
+    "ai_report": "1.A minimal bronchointerstitial pulmonary pattern has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "pulmonary_nodules"
+      ],
+      "fp": [],
+      "tn": [
+        "bronchiectasis",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 20,
+    "radiologist_report": "Orthogonal views of the thorax are provided:\n\n\n\nThorax:\n\n\n\nCardiac silhouette has a normal shape and size.\n\nPulmonary vessels are within normal limits of size and shape.\n\nPulmonary parenchyma is bilaterally markedly atelectatic (worse in the left hemithorax) due to a bilateral moderate to severe volume of pneumothorax leading to tenting of the diaphragm. In the RL view there is a most likely pulmonary bulla superimposed with the cardiac silhouette, seen in the left caudal lung lobe. \n\nMediastinum, diaphragm are within normal limits.\n\nOld rib fractures are seen in the 10th, 11th and 12th right ribs.",
+    "ai_report": "1.A moderate perihilar infitlrate has been detected.\n\n\n2.Minimal dynamic airway disease has been detected.\n\n\n3.Pleural fissure lines or moderate pleural effusion has been detected. An overlying skin fold or in a moderately overweight animal, excessive pericardial fat could artifactually mimic the result of moderate pleural effusion.\n\n\n4.The cardiac silhouette size is normal.\n\n\n5.There is no evidence of PULMONARY NODULES.\n\n\n6.A severe interstitial to alveolar pattern has been detected.",
+    "results": {
+      "tp": [
+        "perihilar_infiltrate",
+        "diseased_lungs",
+        "pulmonary_hypoinflation"
+      ],
+      "fp": [
+        "bronchitis",
+        "interstitial",
+        "focal_perihilar",
+        "pleural_effusion"
+      ],
+      "tn": [
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 21,
+    "radiologist_report": "Patient Name : Otto Harvey, Date of study: Sep 27, 2024\n3 images are provided for review\nCanine Thorax (3 Images) - 2 Lateral, 1 Vd\n\nPulmonary parenchyma: A mild to moderate diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "1.A minimal bronchial pattern has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of ALVEOLAR PATTERN, PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PULMONARY NODULES.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "interstitial",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 22,
+    "radiologist_report": "Orthogonal views of the thorax are provided:\n\n\n\nThorax:\n\n\n\nCardiac silhouette has a normal shape and size.\n\nPulmonary vessels are within normal limits of size and shape.\n\nPulmonary parenchyma is within normal limits. No evidence of pulmonary nodules/masses.\n\nPleural space, mediastinum, diaphragm and thoracic wall within normal limits.\n\nBilateral shoulder periarticular osteophytosis.",
+    "ai_report": "1.Are respiratory signs present? If NO.\n\n\n2.MODERATE INTERSTITIAL TO ALVEOLAR PATTERN; MILD BRONCHITIS.\n\n\n3.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)\n\n\n4.The cardiac silhouette size is normal.\n\n\n5.There is no evidence of DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.\n\n\n6.Are respiratory signs present? If YES.",
+    "results": {
+      "tp": [],
+      "fp": ["bronchitis", "interstitial", "diseased_lungs"],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 23,
+    "radiologist_report": "4 images of the thorax and abdomen are presented for review. The cardiovascular structures are normal. There is a moderate bronchial pattern in all lung lobes. No pulmonary nodules or enlarged intrathoracic lymph nodes are seen. The pleural and mediastinal structures are normal. Abdominal serosal detail is adequate in all quadrants. The stomach contains a moderate amount of ingesta. The small intestines are normal in size. Gas and feces are present in the colon. The urinary bladder is small. The remaining abdominal organs are normal. The 13th ribs are hypoplastic bilaterally. Osteophytes present on the femoral trochlear ridges and tibial plateaus bilaterally.",
+    "ai_report": "1.MINIMAL to MILD BRONCHOINTERSTITIAL PULMONARY PATTERN; POTENTIAL FOR FOCAL ATELECTASIS.\n\n\n2.MILD BRONCHOINTERSTITIAL PULMONARY PATTERN; MINIMAL to MILD PERIHILAR PATTERN.\n\n\n3.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is LOW (25%)\n\n\n4.Based on the AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is LOW (25%)\n\n\n5.In the ABSENCE of respiratory signs, a false positive result due to age-related changes, secondary to pulmonary hypoinflation +/- concurrent, non-clinical chronic minimal to mild bronchointerstitial lung disease or false positive result from technique or edge-enhanced image processing would be most likely.\n\n\n6.Are respiratory signs present? If YES.\n\n\n7.Are respiratory signs present? If NO.\n\n\n8.The cardiac silhouette size is normal.\n\n\n9.In the PRESENCE of respiratory signs, low grade active pneumonitis (allergic, bacterial, parasitic (including heartworm disease), inhaled allergen or toxin) or upper airway disease causing pulmonary hypoinflation and/or recurrent microaspiration may be more likely.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": [
+        "perihilar_infiltrate",
+        "interstitial",
+        "focal_perihilar",
+        "pulmonary_hypoinflation"
+      ],
+      "tn": [
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 24,
+    "radiologist_report": "Opposite lateral and VD views of the thorax and abdomen are provided. There are eight images total.\n\n\n\nThe cardiac silhouette is moderately enlarged with rounded shape. There is a moderate to severe diffuse interstitial pattern. There is ill defined increased opacity around the pulmonary hilus and in the cranial thorax. The cranial mediastinum is widened. In the VD thorax views, there is a smoothly marginated dome-shaped opacity along the lateral margin of the thoracic cavity at the level of the seventh rib suspected to represent a subpleural nodule. There is subtle opacity suspected to represent periosteal response associated with the lateral aspect of the rib in this area.\n\n\n\nThe abdomen is distended, with a moderate reduction in serosal detail. The organs still appear to be within normal size and shape limits. No mass lesions are identified.\n\n\n\nThere is moderate spondylosis involving the lumbosacral junction. No destructive bone lesions are seen.",
+    "ai_report": "1.MODERATE INTERSITIAL TO ALVEOLAR PATTERN; MILD BRONCHITIS; MINIMAL PERIHILAR INFILTRATE.\n\n\n2.Probability these AI pulmonary findings will accompany clinically detectable respiratory signs: MEDIUM to HIGH (50-75%%)\n\n\n3.Are respiratory signs present? If YES.\n\n\n4.AI linked bacterial pneumonia treatment in dogs: https://platform.v2.vetology.net/doc/pneumonia-in-dogs-and-cats\n\n\n5.Are respiratory signs present? If NO.\n\n\n6.Pleural fissure lines or small volume pleural effusion has been detected. In a mildly overweight animal, excessive pericardial fat can artifactually mimic the result of minimal pleural effusion.\n\n\n7.Severe cardiomegaly has been detected but Heart Failure is NOT suspected.",
+    "results": {
+      "tp": [
+        "perihilar_infiltrate",
+        "interstitial",
+        "diseased_lungs",
+        "focal_perihilar",
+        "cardiomegaly"
+      ],
+      "fp": ["pneumonia", "bronchitis", "pleural_effusion"],
+      "tn": [
+        "hypo_plastic_trachea",
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": ["pulmonary_nodules", "thoracic_lymphadenopathy"]
+    }
+  },
+  {
+    "row_id": 25,
+    "radiologist_report": "Opposite lateral and VD views of the thorax and neck are provided.\n\n\n\nNo laryngeal or tracheal abnormalities are identified.\n\nNo pulmonary infiltrates or bronchial thickening are seen.\n\nThe heart is at the upper end of normal size range. Subtle bulges can be seen in the area of the left and right atrium but the appearance is subtle and equivocal. Vertebral Heart Score is 10.9, at the upper end of acceptable range for breed. Pulmonary vessels are normal. The cranial abdomen is unremarkable.\n\nMild chronic remodeling changes are present involving the shoulders.",
+    "ai_report": "1.MILD BRONCHOINTERSTITIAL PULMONARY PATTERN; MILD DYNAMIC AIRWAY DISEASE; MINIMAL PERIHILAR INFILTRATE.\n\n\n2.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)\n\n\n3.Are respiratory signs present? If YES.\n\n\n4.Are respiratory signs present? If NO.\n\n\n5.Mild cardiomegaly has been detected but Heart Failure is NOT suspected.",
+    "results": {
+      "tp": ["vhs_v2"],
+      "fp": [
+        "perihilar_infiltrate",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly"
+      ],
+      "tn": [
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 26,
+    "radiologist_report": "Orthogonal views of the thorax are provided:\n\n\n\nThorax:\n\n\n\nNo abnormalities seen in the trachea.\n\nCardiac silhouette has a normal shape and size.\n\nPulmonary vessels are within normal limits of size and shape.\n\nPulmonary parenchyma is within normal limits. No evidence of pneumonia.\n\nPleural space, mediastinum, diaphragm and thoracic wall within normal limits.\n\n\n\nLiver extends beyond the costal arch with sharp margins.",
+    "ai_report": "1.MILD BRONCHOINTERSTITIAL PULMONARY PATTERN WITH ATELECTASIS or LESS LIKELY, PNEUMONIA, MILD PERIHILAR INFILTRATE.\n\n\n2.MILD BRONCHOINTERSTITIAL PULMONARY PATTERN; MINIMAL DYNAMIC AIRWAY DISEASE; ATELECTASIS or less likely, pneumonia.\n\n\n3.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)\n\n\n4.Probability these AI pulmonary findings will accompany clinically detectable respiratory signs: MILD TO MODERATE (25-50%)\n\n\n5.Are respiratory signs present? If YES.\n\n\n6.Are respiratory signs present? If NO.\n\n\n7.The cardiac silhouette size is normal.\n\n\n8.Are respiratory signs present? If YES.\n\n\n9.Are respiratory signs present? If NO.",
+    "results": {
+      "tp": [],
+      "fp": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "focal_perihilar",
+        "pulmonary_hypoinflation"
+      ],
+      "tn": [
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 27,
+    "radiologist_report": "Orthogonal views of the thorax are provided:\n\n\n\nThorax:\n\n\n\nThere is marked cervical tracheal collapse.\n\nCardiac silhouette has a normal shape and size, shifted to the left hemithorax.\n\nPulmonary vessels are within normal limits of size and shape.\n\nPulmonary parenchyma shows focal alveolar pulmonary pattern cranioventrally located in the LL view, likely in the right cranial lung lobe. No signs of pulmonary nodules/masses.\n\nPleural space, mediastinum, diaphragm and thoracic wall within normal limits.",
+    "ai_report": "1.Are respiratory signs present? If YES.\n\n\n2.Are respiratory signs present? If NO.\n\n\n3.MODERATE INTERSTITIAL TO ALVEOLAR INFILTRATE; MILD BRONCHIAL PATTERN; MINIMAL PERIHILAR INFILTRATE.\n\n\n4.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is HIGH (75%)\n\n\n5.Pleural fissure lines or small volume pleural effusion has been detected. In a mildly overweight animal, excessive pericardial fat can artifactually mimic the result of minimal pleural effusion.\n\n\n6.Mild cardiomegaly has been detected but Heart Failure is NOT suspected.",
+    "results": {
+      "tp": ["pneumonia", "diseased_lungs"],
+      "fp": [
+        "perihilar_infiltrate",
+        "bronchitis",
+        "interstitial",
+        "focal_perihilar",
+        "pleural_effusion",
+        "cardiomegaly"
+      ],
+      "tn": [
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 28,
+    "radiologist_report": "Patient Name: Olivander Mengers. \nDate of study: Sep 27, 2024\nOrthogonal thoracic radiographs (6 images, VD and R and L lateral) are available for review. No prior thoracic radiographs are available for comparison. \n\nNeck: Minimal gas is present in the cranial cervical esophagus. \n\nThorax: \nAirway/pulmonary parenchyma: The lungs are underinflated on all projections with some radiographs being expiratory. \n\nThe intra- and extrathoracic trachea are normal. Primary lobar bronchial diameter decreases to approximately 50% diameter on the expiratory radiograph. Secondary bronchial diameter collapses cranioventrally and caudodorsally on the left lateral expiratory radiograph. On the left lateral inspiratory radiograph, a thin-walled bulla is noted in the caudal lungs and the cranial lung lobe only extends to the level of the 3rd rib.\n\nOn the VD projection, alveolar infiltrates affect the left cranial lung lobe and an interstitial pattern affects the remaining lung lobes. The cranial lung lobes extend to the 1st intercostal space but not to the thoracic inlet, particularly on the left.\n\nCardiovascular: On the lateral projection, there is mild right sided cardiomegaly, a soft tissue bulge in the aortic region and minimal left atrial enlargement. Also, the pulmonary vein to the left cranial lung lobe is slightly larger than the corresponding artery. Rounding to the cardiac margin, along with pericardial fat, is present on the VD projection. CVC size is normal. \n\nMediastinum: Cranial mediastinal widening is present on all projections. \n\nPleural space: No abnormalities noted. \n\nCranial abdomen: The liver size is normal but the liver margin is rounded. The stomach is ingesta distended. \n\nMsk: On the lateral projections, the C4-5 through C7-T1 lateral foramina appear smoothly widened. On the VD projection, the right C5 and C6 lateral foramina have a lucent appearance. \n\nAsymmetry to the forelimb musculature is present with the right appearing slightly atrophied compared to the left.",
+    "ai_report": "1.Are respiratory signs present? If YES.\n\n\n2.Are respiratory signs present? If NO.\n\n\n3.SEVERE ALVEOLAR PATTERN; MILD, DIFFUSE BRONCHOINTERSTITIAL PULMONARY PATTERN; MILD DYNAMIC AIRWAY DISEASE.\n\n\n4.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is VERY HIGH (>75%)\n\n\n5.The cardiac silhouette size is normal.",
+    "results": {
+      "tp": ["pneumonia", "interstitial", "diseased_lungs"],
+      "fp": ["bronchitis"],
+      "tn": [
+        "perihilar_infiltrate",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pleural_effusion",
+        "rtm",
+        "pericardial_effusion",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": [
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "pulmonary_vessel_enlargement",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly"
+      ]
+    }
+  },
+  {
+    "row_id": 29,
+    "radiologist_report": "Patient Name : honey charnow-rivera, Date of study: Sep 27, 2024\n5 images are provided for review\nThere are no previous radiographs for comparison.\nCaudal abdomen tip is absent in the lateral image, and portions of the mid-abdomen are excluded in the ventrodorsal images.\n\n\nPulmonary parenchyma: The lungs are mild to moderately hypoinflated. Only in the ventrodorsal image, an interstitial to alveolar pattern is over the area of the right middle lung lobe. A mild diffuse bronchial and minimal diffuse interstitial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is severely generally enlarged in the ventrodorsal image. The cardiac silhouette is tall in the lateral image and occupies 2/3 the height of the thorax, with dorsal trachea dispalcement. the cardiac silhouette is severely widened and occupies the width of 4-5 intercostal spaces in the lateral image.\nMediastinum: The cranial mediastinum is normal.\nTrachea: An endotracheal tube is present that terminated over the mid-trachea in the right lateral image. The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nLiver: The liver has a slightly rounded caudoventral margin.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a moderate volume of gas and fluid. The stomach is within normal limits for size.\nThe small intestine contains minimal gas and mild fluid or is empty with a subjectively uniform population for size. \nThe colon contains moderate heterogeneous soft tissue material and gas. The colon is within normal limits for size. \n\nBones/Joints/Soft tissues: A mineralized nodule is presumed to arise from the ventral extra-thoracic soft tissue in the lateral images. The remaining included musculoskeletal structures are normal. Moderate bilateral coxofemoral joint osteoarthrosis is present, and the acetabulums are shallow with under 50% coverage of the femoral heads.",
+    "ai_report": "1.Pleural fissure lines or moderate pleural effusion has been detected. An overlying skin fold or in a moderately overweight animal, excessive pericardial fat could artifactually mimic the result of moderate pleural effusion.\n\n\n2.Severe cardiomegaly has been detected but Heart Failure is NOT suspected.\n\n\n3.Are respiratory signs present? If NO.\n\n\n4.MODERATE DYNAMIC AIRWAY DISEASE; MODERATE INTERSTITIAL TO ALVEOLAR INFILTRATE, MILD BRONCHIAL PATTERN, MILD PERIHILAR INFILTRATE.\n\n\n5.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)\n\n\n6.Are respiratory signs present? If YES.",
+    "results": {
+      "tp": ["bronchitis", "interstitial", "diseased_lungs", "cardiomegaly"],
+      "fp": ["perihilar_infiltrate", "focal_perihilar", "pleural_effusion"],
+      "tn": [
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pericardial_effusion",
+        "thoracic_lymphadenopathy",
+        "esophagitis"
+      ],
+      "fn": ["pulmonary_hypoinflation"]
+    }
+  },
+  {
+    "row_id": 30,
+    "radiologist_report": "Patient Name : shannon Shepard, Date of study: Sep 27, 2024\n5 images are provided for review\nThere are no previous radiographs for comparison.\nCranial thorax is excluded in all images.\n\nPulmonary parenchyma: A mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is tall and occupies 2/3 the height of the thorax, with dorsal tracheal displacement. The cardiac silhouette is suspiciously widened in the mildly oblique ventrodorsal image.\nMediastinum: The cranial mediastinum is normal on limited evaluation.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nLiver: The liver is subjectively normal in size.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a moderate volume of gas. Gas is in the pylorus in the left lateral image. Gastric rugal folds are prominent in the ventrodorsal image. The stomach is within normal limits for size.\nThe small intestine contains minimal gas, mild fluid or is empty with a subjectively uniform population for size. \nThe colon contains minimal soft tissue material or fluid and gas. The colon is within normal limits for size. \n\nMusculoskeletal: In situ intervertebral disc mineralization is at L4-5, L5-6, and L6-7. Pin-point mineral superimposes over the L2-3 intervertebral foramina in the lateral images. T13 is transitional with an absent right and hypoplastic left rib. Multiple prominent nipples superimpose over the abdomen in the ventrodorsal image. Multiple thoracic vertebrae are narrowed or wedge-shaped from T6 through T9 and at T2. Caudal vertebral anomalies are present (screw tail). The remaining included musculoskeletal structures are normal.",
+    "ai_report": "1.A mild perihilar infiltrate has been detected.\n\n\n2.A mild interstitial pattern has been detected.\n\n\n3.Pleural fissure lines or moderate to severe pleural effusion has been detected. An overlying skin fold or in an obese animal, excessive pericardial fat could artifactually mimic the result of severe pleural effusion.\n\n\n4.The cardiac silhouette size is normal.\n\n\n5.There is no evidence of ALVEOLAR PATTERN or DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.",
+    "results": {
+      "tp": ["diseased_lungs"],
+      "fp": [
+        "perihilar_infiltrate",
+        "interstitial",
+        "focal_perihilar",
+        "pleural_effusion"
+      ],
+      "tn": [
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": ["bronchitis", "cardiomegaly"]
+    }
+  },
+  {
+    "row_id": 31,
+    "radiologist_report": "Patient Name : Pumpkin Nguyen, Date of study: Sep 27, 2024\n3 images are provided for review\nCanine Abdomen (3 Images) - 2 Lateral, 1 Vd\nThere are no previous radiographs for comparison.\n\nLiver: The liver is subjectively normal in size.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a moderate volume of gas and mild fluid. Gas is in the pylorus in the left lateral image. The stomach is within normal limits for size.\nThe small intestine contains mild to moderate fluid, or is empty with a subjectively uniform population for size. \nThe colon contains mild gas and has a mildly spastic wall. The colon is within normal limits for size. \n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "1.A minimal perihilar infiltrate has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of BRONCHITIS, ALVEOLAR PATTERN, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS, PULMONARY NODULES or PLEURAL EFFUSION.",
+    "results": {
+      "tp": ["perihilar_infiltrate", "focal_perihilar"],
+      "fp": [],
+      "tn": [
+        "bronchitis",
+        "pulmonary_nodules",
+        "bronchiectasis",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 32,
+    "radiologist_report": "Orthogonal views of the thorax and abdomen are provided and compared to the previous exam on the 08/27/24:\n\n\n\nThorax:\n\n\n\nCardiac silhouette shows an unchanged moderate enlargement of the left atrium dorsally displacing the carina.\n\nPulmonary vessels are within normal limits of size and shape.\n\nPulmonary parenchyma shows an unchanged ill defined alveolo-interstitial patch caudodorsally located in the right caudal lung lobe. \n\nPleural space, mediastinum, diaphragm and thoracic wall within normal limits.\n\n\n\nAbdomen:\n\n\n\nThe stomach is empty.\n\nSmall intestines are mildly gas and fluid filled, not overtly distended. \n\nSerosal detail is preserved.\n\nLiver and spleen are within normal limits of size and smoothly marginated.\n\nKidneys show bilateral renoliths.\n\nUrinary bladder WNL.\n\n\n\nT13 shows no ribs.",
+    "ai_report": "1.MILD BRONCHOINTERSTITIAL PULMONARY PATTERN; MILD PERIHILAR INFILTRATE; MILD DYNAMIC AIRWAY DISEASE; ATELECTASIS or less likely, pneumonia.\n\n\n2.Based on the AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)\n\n\n3.Are respiratory signs present? If YES.\n\n\n4.Are respiratory signs present? If NO.\n\n\n5.Pleural fissure lines or moderate to severe pleural effusion has been detected. An overlying skin fold or in an obese animal, excessive pericardial fat could artifactually mimic the result of severe pleural effusion.\n\n\n6.Moderate cardiomegaly has been detected but Heart Failure is NOT suspected.",
+    "results": {
+      "tp": [
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "left_sided_cardiomegaly"
+      ],
+      "fp": [
+        "perihilar_infiltrate",
+        "bronchitis",
+        "focal_perihilar",
+        "pleural_effusion"
+      ],
+      "tn": [
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": ["focal_caudodorsal_lung"]
+    }
+  },
+  {
+    "row_id": 33,
+    "radiologist_report": "Opposite lateral and VD thoracoabdominal views are provided.\n\n\n\nNo pulmonary infiltrates or pleural effusion are identified. The appearance of the lungs is within normal limits for the age of the patient. No tracheal abnormalities are identified. In the lateral thorax views, there is a faint increase in opacity in the area of the caudal esophagus. The appearance is equivocal=ZZ90= this can be associated with the esophageal thickening but is also not uncommon as an incidental finding.\n\n\n\nThere is mottled mineral opacity in the right liver in the area of the gallbladder, presumed to represent abnormal mineral dense gallbladder content such as choleliths and sediment. No abnormalities are identified involving the gastrointestinal tract. In the lateral views there is ill defined increased opacity in the cranial dorsal abdomen caudal to the stomach, but no corresponding shadow is seen in the VD view. The appearance in the lateral views may be artifactual due to rotation. Serosal detail in the abdomen is normal.\n\nThere is moderate thoracolumbar spondylosis.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of ALVEOLAR PATTERN, PERIHILAR INFILTRATE or DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.\n\n\n3.A mild bronchial pattern has been detected.",
+    "results": {
+      "tp": [],
+      "fp": ["bronchitis"],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 34,
+    "radiologist_report": "Orthogonal radiographs of the thorax, and five views of the abdomen are provided. The heart and pulmonary vessels are normal size and shape. There is a round 1.5 cm increased opacity overlying the caudal thorax/ventral diaphragm on the lateral view. No other nodular contours are appreciated. There is no pleural effusion or intrathoracic lymphadenomegaly.\n\n\n\nIn the abdomen there is no effusion. The liver and spleen are normal size. The kidneys are incompletely visible. The gastrointestinal tract is mildly filled. No osseous abnormalities. The region of the medial iliac lymph node is unremarkable. No prostatomegaly or radiopaque urolithiasis.",
+    "ai_report": "1.MINIMAL to MILD DIFFUSE, MIXED BRONCHOINTERSTITIAL PULMONARY PATTERN with ATELECTASIS or less likely, pneumonia.\n\n\n2.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is LOW (25%)\n\n\n3.Are respiratory signs present? If YES.\n\n\n4.Are respiratory signs present? If NO.\n\n\n5.The cardiac silhouette size is normal.\n\n\n6.There is no evidence of DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.",
+    "results": {
+      "tp": [
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "pulmonary_nodules",
+        "pulmonary_hypoinflation"
+      ],
+      "fp": ["diseased_lungs"],
+      "tn": [
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 35,
+    "radiologist_report": "Three radiographs of the thorax, three views of the abdomen, and two VD views of the pelvis/proximal pelvic limbs are provided. Previous pelvis images dated 10/14/22 are available for comparison. The cardiac silhouette and pulmonary vessels are normal size and shape. There are no abnormalities in the pulmonary parenchyma. No pleural effusion. Round soft tissue density ventral to the tracheal bifurcation on the right lateral view is end-on right main pulmonary artery. Normal cranial mediastinal width.\n\n\n\nIn the abdomen formed feces fills the colon. Small volume gas in the stomach and small bowel. There is no effusion. The kidneys, spleen, and liver are normal size and shape. Punctate mineral density overlying the urinary bladder may represent superimposed intestinal contents. Both femoral heads are adequately seated in the acetabula. There is faint curvilinear enthesophyte formation in the intertrochanteric groove bilaterally. Pelvic limb musculature is symmetric. Patellar location is normal. No abnormalities associated with the tibial plates or screws.",
+    "ai_report": "1.There is no evidence of BRONCHITIS, PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PLEURAL EFFUSION.\n\n\n2.A minimal interstitial pattern has been detected.\n\n\n3.The cardiac silhouette size is normal.",
+    "results": {
+      "tp": [],
+      "fp": ["interstitial"],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "diseased_lungs",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 36,
+    "radiologist_report": "Patient Name : Coco Talley, Date of study: Sep 27, 2024\n5 images are provided for review\nThere are no previous radiographs for comparison. Cranial thorax tip is just excluded from the ventrodorsal image.\nN.B. Patient age in metadata is listed as \"1 year\".\n\nPulmonary parenchyma: A minimal to mild diffuse bronchial and minimal interstitial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is mildly tall and occupies approximately 2/3 the height of the thorax, with slight dorsal tracheal dispalcement. The cardiac silhouette is slightly widened and occupies 3 to 3.5 intercostal spaces with. The caudodorsal margin of the cardiac silhouette is slightly flattened. \nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "1.Mild cardiomegaly has been detected but Heart Failure is NOT suspected.\n\n\n2.SEVERE BRONCHIAL PATTERN; MODERATE DYNAMIC AIRWAY DISEASE.\n\n\n3.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is VERY HIGH (>75%)\n\n\n4.Are respiratory signs present? If YES.\n\n\n5.AI link to canine airway collapse treatment article: https://platform.v2.vetology.net/doc/canine-tracheal-collapse-treatment\n\n\n6.Are respiratory signs present? If NO.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs", "cardiomegaly"],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "pericardial_effusion",
+        "thoracic_lymphadenopathy",
+        "esophagitis"
+      ],
+      "fn": ["interstitial"]
+    }
+  },
+  {
+    "row_id": 37,
+    "radiologist_report": "9 images of the thorax, abdomen, and left thoracic limb are presented for review. The cardiovascular structures are normal. There is a diffuse interstitial pulmonary pattern that is considered appropriate for the age of the patient. No pulmonary nodules or enlarged intrathoracic lymph nodes are seen. The pleural and mediastinal structures are normal. Abdominal serosal detail is adequate in all quadrants. The stomach contains a moderate amount of gas. The small intestines are normal in size. Gas and feces are present in the colon. The urinary bladder is small. The remaining abdominal organs are normal. There is narrowing of the intervertebral disc spaces and spondylosis deformans at T12-L3 and C6-7. The sacrum is displaced ventrally relative to L7. There is marked widening of the articular facets and sclerosis of the vertebral endplates at this level. There is also ventral displacement of Cd5 relative to Cd4. The joint surfaces are smooth and regular. Osteophytes are present at the caudal aspect of the left humeral head and glenoid cavity. There is a mildly comminuted fracture of the distal diaphysis of the left humerus with marked caudolateral and proximal displacement. No lytic changes are seen.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of INTERSTITIAL or ALVEOLAR PATTERN, BRONCHITIS, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PLEURAL EFFUSION.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": ["interstitial"]
+    }
+  },
+  {
+    "row_id": 38,
+    "radiologist_report": "Three radiographs of the thorax and three views of the abdomen are provided. The cardiac silhouette is normal size and shape with no chamber enlargement. Pulmonary vessels are normal size. There are a few incidental pulmonary osteomas, otherwise the lungs are clear. No pleural effusion or intrathoracic lymphadenomegaly.\n\n\n\nIn the abdomen the splenic tail has a rounded contour on the right lateral view. The liver and kidneys are normal size. The stomach contains a small to moderate amount of soft tissue density stippled with gas and a crumpled metal opaque 2.8 cm wire-like object. Small bowel are minimally filled. There is gas in the cecum and colon. No radiopaque urolithiasis.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.There is no evidence of INTERSTITIAL or ALVEOLAR PATTERN, BRONCHITIS, PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PLEURAL EFFUSION.",
+    "results": {
+      "tp": ["pulmonary_nodules"],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 39,
+    "radiologist_report": "Patient Name : Copper Sanders, Date of study: Sep 27, 2024\n2 images are provided for review\nThere are no previous radiographs for comparison.\nCranial thorax tip is excluded from the ventrodorsal image.\n\nPulmonary parenchyma: A mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is tall and occupies approximately 2/3 the height of the thorax. The cardiac silhouette is generally widened and rounded, occupying up to 4 intercostal spaces width in the lateral image. Rounded increased soft tissue is suspected in the region of the left atrium.\nMediastinum: The cranial mediastinum is subjectively normal.\nTrachea: The trachea has a slightly undulant, well-defined dorsal margin.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nLiver: The liver is subjectively normal in size.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The right kidney is partially obscured without obvious renomegaly or mineral. The left kidney has ill-defined mineral superimposed in the ventrodorsal image. \nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder contains multiple (at least seven)\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a moderate volume of soft tissue material and gas. Some soft tissue material is well-defined and rectangular in the proximal body of the stomach in the right lateral image. The stomach is within normal limits for size.\nThe small intestine contains mild heterogeneous soft tissue material in the caudoventral abdomen, and otherwise contains mild gas, minimal fluid, or is empty. Overall the small intestine has a subjectively uniform population for size. \nThe colon contains moderate well-defined soft tissue material and gas. The colon is within normal limits for size. \n\nMusculoskeletal: Multifocal thoracolumbar spondylosis deformans is present. The remaining included musculoskeletal structures are normal.",
+    "ai_report": "1.Are respiratory signs present? If NO.\n\n\n2.SEVERE BRONCHIAL PATTERN; MILD DYNAMIC AIRWAY DISEASE.\n\n\n3.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is HIGH (75%)\n\n\n4.Are respiratory signs present? If YES.\n\n\n5.Severe cardiomegaly has been detected but Heart Failure is NOT suspected.",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "diseased_lungs",
+        "cardiomegaly",
+        "left_sided_cardiomegaly"
+      ],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "interstitial",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "thoracic_lymphadenopathy",
+        "esophagitis"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 40,
+    "radiologist_report": "Orthogonal views of the thorax and abdomen are provided:\n\n\n\nThorax:\n\n\n\nCardiac silhouette has a normal shape and size.\n\nPulmonary vessels are within normal limits of size and shape.\n\nPulmonary parenchyma is within normal limits. No evidence of pulmonary nodules/masses.\n\nPleural space, mediastinum, diaphragm and thoracic wall within normal limits.\n\n\n\nAbdomen:\n\n\n\nThe stomach is filled with food.\n\nSmall intestines are mildly gas and fluid filled, not overtly distended. No signs of mechanical ileus.\n\nSerosal detail is preserved.\n\nLiver extends beyond the costal arch with rounded and mildly irregular margins.\n\nSpleen is within normal limits of size and smoothly marginated.\n\nKidneys and urinary bladder WNL.\n\n\n\nBilateral hip dysplasia with mild periarticular osteophytosis.",
+    "ai_report": "1.A mild bronchointerstitial pulmonary pattern and minimal perihilar infiltrate have been detected.\n\n\n2.PULMONARY NODULAR PATTERN; MINIMAL BRONCHOINTERSTITIAL PULMONARY PATTERN.\n\n\n3.The evaluation has come up positive for a pulmonary nodular pattern.\n\n\n4.Are respiratory signs present. If YES.\n\n\n5.Are respiratory signs present. If NO.\n\n\n6.The cardiac silhouette size is normal.\n\n\n7.There is no evidence of DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.\n\n\n8.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)",
+    "results": {
+      "tp": [],
+      "fp": [
+        "perihilar_infiltrate",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "pulmonary_nodules",
+        "focal_perihilar"
+      ],
+      "tn": [
+        "pneumonia",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 41,
+    "radiologist_report": "Patient Name : Comet Maria Morales, Date of study: Sep 27, 2024\n4 images are provided for review\nCanine Thorax (4 Images) - 3 Lateral, 1 Vd\nPrevious images dated [09/21/2024 Case#2766192] are available for comparison.\n\nPulmonary parenchyma: In the right caudal lung lobe is a well-defined, ovoid soft tissue mass. This mass is in the dorsal periphery of the right caudal lung. This is similar to prior. A mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: A broad-based fat opaque mass deforms the right extra-thoracic body wall from the level of T2 to approximately T11-12. The ventral extra-thoracic soft tissues are mildly undulant. The remaining included musculoskeletal structures are normal.",
+    "ai_report": "1.A mild bronchial pattern and minimal perihilar infiltrate have been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of ALVEOLAR PATTERN, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PLEURAL EFFUSION.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": ["perihilar_infiltrate", "focal_perihilar"],
+      "tn": [
+        "pneumonia",
+        "interstitial",
+        "hypo_plastic_trachea",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": ["pulmonary_nodules", "focal_caudodorsal_lung", "rtm"]
+    }
+  },
+  {
+    "row_id": 42,
+    "radiologist_report": "Five radiographs are provided, with images of the thorax, abdomen, pelvic limbs. The cardiac silhouette is normal size. There are no abnormalities in the pulmonary parenchyma. No pleural effusion. Redundant dorsal trachealis membrane causes severe narrowed cervical trachea. In the abdomen the liver is prominent with rounded margins. There is no effusion. The gastrointestinal tract is minimally filled. No radiopaque urolithiasis. Normal-sized kidneys and spleen. No lumbar spinal abnormalities. The coxofemoral joints are congruent. No definitive patellar displacement. There is small volume fluid in the cranial aspect of the left stifle joint, with enthesophytes on the femoral trochlear ridges and distal patella. No definitive right stifle joint abnormalities, although evaluation is limited by superimposed abdominal tissue.",
+    "ai_report": "1.A minimal to mild bronchointerstitial pulmonary pattern has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS, PULMONARY NODULES or PLEURAL EFFUSION.",
+    "results": {
+      "tp": ["rtm"],
+      "fp": ["bronchitis", "interstitial", "diseased_lungs"],
+      "tn": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 43,
+    "radiologist_report": "3 views of the thorax are provided for review. The cardiovascular structures are normal. There is a diffuse interstitial pattern that is considered appropriate for the age of the patient. No pulmonary nodules or enlarged intrathoracic lymph nodes are seen. The pleural and mediastinal structures are normal. Cranial abdominal detail is adequate. Small mineral structures are present in the stomach.",
+    "ai_report": "1.A minimal perihilar infiltrate has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of BRONCHITIS, ALVEOLAR PATTERN, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS, PULMONARY NODULES or PLEURAL EFFUSION.",
+    "results": {
+      "tp": ["perihilar_infiltrate", "interstitial", "focal_perihilar"],
+      "fp": [],
+      "tn": [
+        "bronchitis",
+        "pulmonary_nodules",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 44,
+    "radiologist_report": "Patient Name : Pip Gabbert, Date of study: Sep 27, 2024\nEleven images are provided.\nPrior images dated January 5th, 2024 are available.\n\nPulmonary parenchyma: A minimal to mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nLiver: The liver is subjectively normal in size.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nReproductive: No obvious prostatomegaly given reported intact patient status.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a mild volume of fluid and gas. The stomach is within normal limits for size.\nThe small intestine contains minimal gas and mild fluid or is empty with a subjectively uniform population for size. \nThe colon contains minimal heterogeneous soft tissue material and gas. The colon is within normal limits for size. \n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "1.A minimal perihilar infiltrate has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of BRONCHITIS, ALVEOLAR PATTERN, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS, PULMONARY NODULES or PLEURAL EFFUSION.",
+    "results": {
+      "tp": ["diseased_lungs"],
+      "fp": ["perihilar_infiltrate", "focal_perihilar"],
+      "tn": [
+        "pneumonia",
+        "interstitial",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": ["bronchitis"]
+    }
+  },
+  {
+    "row_id": 45,
+    "radiologist_report": "Patient Name : Barley Ashley, Date of study: Sep 27, 2024\n3 images are provided for review\nCanine Thorax (3 Images) - 1 Vd, 2 Lateral\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: Best identified in the ventrodorsal image, an ovoid soft tissue nodule with slightly ill-defined margins is over the left scapula and left cranial lung lobe in the 3rd intercostal space. Few suspicious soft tissue foci are occasionally in the cranioventral lungs in the lateral images. A mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is has a slight increase in soft tissue with lateral mainstem bronchi displacement in the region of the left atrium in the ventrodorsal image.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "1.Are respiratory signs present? If YES.\n\n\n2.Are respiratory signs present? If NO.\n\n\n3.MINIMAL to MILD DIFFUSE, MIXED BRONCHOINTERSTITIAL PULMONARY PATTERN with ATELECTASIS or less likely, pneumonia.\n\n\n4.Probability these AI pulmonary findings will accompany clinically detectable respiratory signs: LOW (25%)\n\n\n5.The cardiac silhouette size is normal.\n\n\n6.There is no evidence of DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PLEURAL EFFUSION.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": ["pneumonia", "interstitial", "pulmonary_hypoinflation"],
+      "tn": [
+        "perihilar_infiltrate",
+        "hypo_plastic_trachea",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "thoracic_lymphadenopathy",
+        "esophagitis"
+      ],
+      "fn": ["pulmonary_nodules", "cardiomegaly", "left_sided_cardiomegaly"]
+    }
+  },
+  {
+    "row_id": 46,
+    "radiologist_report": "Patient Name : Mia Martinez, Date of study: Sep 27, 2024\n5 images are provided for review\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A mild diffuse bronchial pattern is present. Soft tissue over the right middle lung in the ventrodorsal image is not corroborated in the left lateral image and is presumed superimposed extra-thoracic tissue. \nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is mildly symmetrically widened in the ventrodorsal image, without obvious increased soft tissue in the lateral images.\nTrachea: A slight soft tissue band is partially superimposed over the dorsal aspect of the trachea.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nBones/Joints:\nA dens is present. There is no evidence of atlantoaxial joint subluxation.\nThere is no evidence of intervertebral disc space narrowing, or mineral over the intervertebral foramina. There is no evidence of intervertebral dorsal articulation osteoarthrosis.\nThere is no evidence of medullary sclerosis, osteolysis, endosteal scalloping, or periosteal proliferation.\n\nSoft tissues: The soft tissues dorsal to the larynx and cranial tracheal are subjectively thickened and convex.\n\nA broad based soft tissue mass arises from the left lateral extrathoracic soft tissues, extending from the level of the 3rd-4th through 11-12th intercostal spaces. this mass deforms the left lateral cutaneous surface of the body wall. The remaining included soft tissues are normal.",
+    "ai_report": "1.The cardiac silhouette size is normal.\n\n\n2.Pleural fissure lines or small volume pleural effusion has been detected. In a mildly overweight animal, excessive pericardial fat can artifactually mimic the result of minimal pleural effusion.\n\n\n3.A mild bronchointerstitial pulmonary pattern and minimal perihilar infiltrate have been detected.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": [
+        "perihilar_infiltrate",
+        "interstitial",
+        "focal_perihilar",
+        "pleural_effusion"
+      ],
+      "tn": [
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 47,
+    "radiologist_report": "Six radiographs of the thorax and abdomen are provided. The cardiac silhouette is normal size and shape. Slight rightward position of the thoracic trachea on the VD views is incidental. Hazy increased opacity to the left of the cardiac apex on the VD view is not seen on the lateral projections and is likely either extrathoracic lipomatous lesion or incidental pleural fat deposition. Faint bronchial markings is normal for the age of this patient. There is no pleural effusion. Normal tracheal diameter.\n\n\n\nIn the abdomen the liver is mildly enlarged with smooth margins. Normal sized kidneys and spleen. The gastrointestinal tract is minimally filled. No radiopaque cystic calculi. Mineralized intervertebral disc material at T11-12, incidental.",
+    "ai_report": "1.Are respiratory signs present? If YES.\n\n\n2.MODERATE INTERSTITIAL TO ALVEOLAR INFILTRATE; MINIMAL BRONCHIAL PATTERN; MINIMAL PERIHILAR INFILTRATE.\n\n\n3.Based on these AI airway/pulmonary findings, the probability of this patient having clinically detectable respiratory signs is MEDIUM (50%)\n\n\n4.Are respiratory signs present? If NO.\n\n\n5.The cardiac silhouette size is normal.\n\n\n6.There is no evidence of PULMONARY NODULES.",
+    "results": {
+      "tp": [],
+      "fp": [
+        "perihilar_infiltrate",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "focal_perihilar"
+      ],
+      "tn": [
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "esophagitis"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 48,
+    "radiologist_report": "Patient Name : Masha Radomski, Date of study: Sep 27, 2024\n6 images are provided for review\nThere are no previous radiographs for comparison.\nGloves presumed in primary beam in ventrodorsal thorax image.\n\nPulmonary parenchyma: Occasional small round soft tissue foci are suspected in the periphery of the lungs, such as ventral to the level of T5-6 in the right lateral image. A minimal to mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nBones/Joints:\nThe included right carpus, metacarpus and digits are normal.\n\nThe left elbow is normal. \nArising from presumably the axial aspect of the left 1st distal phalanx ungual crest is an expansile, osteolytic aggressive bone lesion. This margin of the left 1st distal phalanx ungual crest is rounded, expanded and has thinned margins as a result. The left 1st distal phalanx is severely displaced abaxially, with luxation of the left 1st digit interphalangeal joint. A rectangular mineral focus is abaxial to the left 1st interphalangeal joint. The distal margin of the left 1st digit proximal phalanx is smooth and well-defined.\nThe included left carpus, metacarpus are normal. \n\nSoft tissues: The soft tissues surrounding the left 1st digit distally are moderately enlarged and rounded. The remaining included soft tissues are normal.",
+    "ai_report": "1.A minimal to mild bronchointerstitial pulmonary pattern has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of PERIHILAR INFILTRATE or DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS.",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "pulmonary_nodules"
+      ],
+      "fp": [],
+      "tn": [
+        "perihilar_infiltrate",
+        "hypo_plastic_trachea",
+        "pulmonary_hypoinflation",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pleural_effusion",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy",
+        "vhs_v2"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 49,
+    "radiologist_report": "Patient Name : Willa Zinter, Date of study: Sep 27, 2024\n3 images are provided for review\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A moderate alveolar pattern is in the right cranial lung lobe with increased soft tissue and air-bronchograms in the perihilar to ventral periphery. A minimal diffuse interstitial pattern is present, and the lungs are mildly hypoinflated.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal. A mild rightward mediastinal shift is in the ventrodorsal image.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: Mild right-sided pleural fluid is present with a widened pleural fissure between the right middle and caudal lung lobe in the ventrodorsal image. A thin pleural fissure line that does not widen in the periphery is between the subsegments of the left cranial lung lobe in the ventrodorsal image.\n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "1.A minimal to mild bronchointerstitial pulmonary pattern has been detected.\n\n\n2.The cardiac silhouette size is normal.\n\n\n3.There is no evidence of PERIHILAR INFILTRATE, DYNAMIC AIRWAY COLLAPSE or BRONCHIECTASIS or PULMONARY NODULES.",
+    "results": {
+      "tp": [
+        "pneumonia",
+        "interstitial",
+        "diseased_lungs",
+        "pulmonary_hypoinflation",
+        "pleural_effusion",
+        "rtm"
+      ],
+      "fp": [],
+      "tn": [
+        "bronchitis",
+        "hypo_plastic_trachea",
+        "pulmonary_nodules",
+        "focal_caudodorsal_lung",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "pericardial_effusion",
+        "left_sided_cardiomegaly",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": ["perihilar_infiltrate", "focal_perihilar"]
+    }
+  }
+]

@@ -2,31 +2,33 @@ import json
 from openpyxl import load_workbook, Workbook
 from openpyxl.styles import numbers
 
-input_file = r"C:\Users\snklp\Downloads\ResearchProject\ai_classification.json"
+input_file = (
+    r"C:\Users\snklp\Downloads\ResearchProject\ai_classification_feline_thorax.json"
+)
 output_file = r"C:\Users\snklp\Downloads\Research Student Assignments\Research Student Assignments\Example Confusion Matrix Output.xlsx"
 
 thorax_terms = [
-    "perihilar_infiltrate",
+    "pulmonary_nodules",
+    "esophagitis",
     "pneumonia",
     "bronchitis",
     "interstitial",
     "diseased_lungs",
     "hypo_plastic_trachea",
     "cardiomegaly",
-    "pulmonary_nodules",
     "pleural_effusion",
+    "perihilar_infiltrate",
     "rtm",
     "focal_caudodorsal_lung",
-    "focal_perihilar",
-    "pulmonary_hypoinflation",
     "right_sided_cardiomegaly",
-    "pericardial_effusion",
-    "bronchiectasis",
-    "pulmonary_vessel_enlargement",
+    "focal_perihilar",
     "left_sided_cardiomegaly",
+    "bronchiectasis",
+    "pulmonary_ve,sel_enlargement",
     "thoracic_lymphadenopathy",
-    "esophagitis",
-    "vhs_v2",
+    "pulmonary_hypoinflation",
+    "pericardial_effusion",
+    "Fe_Alveolar",
 ]
 
 # Load JSON data

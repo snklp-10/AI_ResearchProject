@@ -1,0 +1,1248 @@
+[
+  {
+    "row_id": 1,
+    "radiologist_report": "Patient Name : Ledoux Gaudet, Date of study: Sep 28, 2024\n2 images are provided for review\nPrevious images dated [09/27/2024 Case#2771488] are available for comparison.\n\nLiver: The liver is subjectively normal in size.\nSpleen: The spleen is enlarged with a undulant dorsal margin in the lateral image, and extends into the mid-ventral abdomen.\nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nPeritoneum: Mild peritoneal fluid is suspected over the spleen.\nGastrointestinal tract: The stomach contains a mild fluid or is empty.   The stomach is within normal limits for size.\nThe small intestine contains mild gas and minimal fluid or is empty with a subjectively uniform population for size.  The small intestine is caudally displaced by the spleen.\nThe colon contains mild heterogeneous soft tissue material and gas.  The colon is within normal limits for size.  \n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "\n1.Uncommonly, this result detects a minimal to mild bronchial pulmonary pattern.\n\n2.Rarely, this result detects a minimal to mild interstitial pulmonary pattern.\n\n3.Rarely, this result detects a minimal alveolar pulmonary pattern.\n\n4.Cardiac silhouette: Normal in most cases; rarely, minimal to mild generalized cardiomegaly is present.\n\n5.Negative for pulmonary vasculature enlargement.\n\n6.Negative for pleural fissure lines/pleural fluid.",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "Fe_Alveolar"
+      ],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 2,
+    "radiologist_report": "Patient Name : Emmy Britt, Date of study: Sep 28, 2024\n3 images are provided for review\nPrior ultrasonography images dated June 9, 2022, are available.\n\nLiver: The liver is subjectively normal in size.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The left kidney is at the lower limit of normal size.  The right kidney is subjectively normal.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a mild gas and fluid or is empty.   The stomach is within normal limits for size.\nThe small intestine contains minimal gas and mild fluid or is empty with a subjectively uniform population for size. \nThe colon contains mild heterogeneous soft tissue material and moderate gas.  The colon is within normal limits for size.  \n\nMusculoskeletal: The patient is thin with concave soft tissue between spinous processes.  The remaining included musculoskeletal structures are normal.",
+    "ai_report": "\n1.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern._x000D_\n\n2.No significant pleural fluid detected._x000D_\n\n3.No cardiomegaly detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 3,
+    "radiologist_report": "Patient Name : Artemis Wilson, Date of study: Sep 28, 2024\n3 images are provided for review\nFeline Thorax (3 Images) - 2 Lateral, 1 Vd\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A minimal to mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: L1 is transitional with thin ribs bilaterally.  The remaining  included musculoskeletal structures are normal.",
+    "ai_report": "\n1.This result detects mild to moderate cardiomegaly._x000D_\n\n2.This result detects a minimal to moderate bronchial pulmonary pattern._x000D_\n\n3.This result detects a minimal to mild interstitial pulmonary pattern._x000D_\n\n4.This result does NOT detect an alveolar pulmonary pattern._x000D_\n\n5.This result does NOT detect pleural fissure lines.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": ["interstitial", "cardiomegaly"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 5,
+    "radiologist_report": "Four radiographs of the thorax and abdomen are provided. The head and neck are included on the VD projection. Nasal sinuses are symmetric in opacity. The tympanic bullae are thin-walled and air-filled. No abnormalities are appreciated in the laryngeal region on the lateral view. The cardiac silhouette is normal size and shape. Slight increased opacity cranial to the heart on the lateral view is due to mediastinal fat and superimposed thoracic limb tissue. The lungs are clear. No pleural effusion. No esophageal dilation. Tracheal diameter and position is normal. In the abdomen moderate volume formed feces fills the colon. The stomach and small bowel are minimally distended. There is no effusion. Normal size kidneys, spleen, liver. Osseous structures are age-appropriate.",
+    "ai_report": "\n1.This result detects a minimal to moderate bronchial pulmonary pattern._x000D_\n\n2.This result detects a minimal to mild interstitial pulmonary pattern._x000D_\n\n3.This result does NOT detect an alveolar pulmonary pattern._x000D_\n\n4.This result detects mild to moderate cardiomegaly._x000D_\n\n5.This result does NOT detect pleural fissure lines.",
+    "results": {
+      "tp": [],
+      "fp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "bronchiectasis"
+      ],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 6,
+    "radiologist_report": "Four orthogonal thoracic radiographs dated 26th September 2024 are available for review. There are no previous radiographs available for comparison. _x000D_\n_x000D_\nThorax: _x000D_\nAirway findings: The cervical and thoracic trachea have a normal size, outline and position. The carina, tracheal bifurcation and mainstem bronchi are normal. The pulmonary parenchyma is normal._x000D_\n_x000D_\nCardiovascular findings: The cardiac silhouette is normal in shape, size and margination. The cranial and caudal pulmonary vasculature is normal. The caudal vena cava is normal. The aorta and mainstem pulmonary artery have a normal outline in the vd/dv l image._x000D_\n_x000D_\nMediastinum and pleural space: No significant abnormalities are detected. A minimal amount of gas is present in the cervical oesophagus at the thoracic inlet._x000D_\n_x000D_\nAbdomen: No significant abnormalities are detected._x000D_\n_x000D_\nMusculoskeletal findings: No significant abnormalities are detected.",
+    "ai_report": "\n1.This result detects a minimal to mild interstitial pulmonary pattern.  _x000D_\n\n2.This result detects a mild to moderate bronchial pulmonary pattern._x000D_\n\n3.This result does not detect an alveolar pulmonary pattern._x000D_\n\n4.This result does not detect pulmonary soft tissue nodules._x000D_\n\n5.This result does not detect pleural fissure lines/fluid.  _x000D_\n\n6.This result does not detect pulmonary vasculature enlargement._x000D_\n\n7.This result detects equivocal/borderline to mild cardiomegaly. ",
+    "results": {
+      "tp": [],
+      "fp": ["bronchitis", "interstitial", "diseased_lungs", "cardiomegaly"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 7,
+    "radiologist_report": "3 views of the torso are submitted for review.  The cardiac silhouette is normal in size and shape.  The pulmonary vasculature is within normal limits.  Multiple small soft tissue opacity nodules are noted throughout the lung fields.  No pleural or mediastinal abnormalities are seen._x000D_\nIn the abdomen, the stomach contains a mild amount of ingesta.  The small bowel and colon are within normal limits.  The liver and spleen are normal in size and shape.  Mild diverticular mineralization is noted in the kidneys.  The urinary bladder is minimally distended.  Serosal detail is adequate._x000D_\nNo osseous abnormalities are noted.",
+    "ai_report": "\n1.No significant pleural fluid detected._x000D_\n\n2.No cardiomegaly detected._x000D_\n\n3.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern.",
+    "results": {
+      "tp": ["pulmonary_nodules"],
+      "fp": [],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["diseased_lungs"]
+    }
+  },
+  {
+    "row_id": 8,
+    "radiologist_report": "Seven orthogonal survey radiographs of the thorax and abdomen dated 26th September 2024 are available for review. There are no previous radiographs available for comparison. _x000D_\n_x000D_\nThorax: _x000D_\nAirway findings: The cervical and thoracic trachea have a normal size, outline and position. The carina, tracheal bifurcation and mainstem bronchi are normal. The pulmonary parenchyma is normal. There is opacification of the caudal dorsal aspect of the thorax by a smoothly marginated fat opaque large mass. A soft issue opaque smoothly marginated kidney sized mass is visible in the most caudal dorsal aspect of the diaphragm at reflection. The most proximal aspect of the diaphragm is poorly visible. The caudal thoracic aorta is ventrally deviated but normal in outline._x000D_\n_x000D_\nCardiovascular findings: The cardiac silhouette is normal in shape, size and margination. The cranial and caudal pulmonary vasculature is normal. The caudal vena cava is normal. The aorta and mainstem pulmonary artery have a normal outline in the vd/dv l image._x000D_\n_x000D_\nMediastinum and pleural space: As described above. The mass lesion may be mediastinal._x000D_\n_x000D_\nAbdomen: The hepatic silhouette is normal. There is mild loss of serosal detail in the cranial dorsal left aspect of the abdomen and medial to the spleen. The outline of the spleen is normal. The left kidney is visible and normal in shape and size. The right kidney is not visible. The stomach has a normal position and is mainly empty. The small intestines are distributed evenly and are within normal limits for shape, size and contents. The ascending, transverse and descending colon have a normal position and contain gradually more formed faeces. The urinary bladder is filled._x000D_\n_x000D_\nMusculoskeletal findings: See above.",
+    "ai_report": "\n1.No significant pleural fluid detected._x000D_\n\n2.No cardiomegaly detected._x000D_\n\n3.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern.",
+    "results": {
+      "tp": ["focal_caudodorsal_lung"],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "hypo_plastic_trachea",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["diseased_lungs"]
+    }
+  },
+  {
+    "row_id": 9,
+    "radiologist_report": "Patient Name : COCO MELLQUIST, Date of study: Sep 26, 2024\n3 images are provided for review\nFeline Thorax (3 Images) - 2 Lateral, 1 Vd\nPrior echocardiography dated September 26, 2024 is available.\n\nPulmonary parenchyma: A minimal to mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is slightly tall with a reniform shape in the lateral images.  The cardiac silhouette has a slightly wide base in the ventrodorsal image.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "\n1.No cardiomegaly detected._x000D_\n\n2.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern._x000D_\n\n3.No significant pleural fluid detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "interstitial",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["bronchitis", "diseased_lungs", "cardiomegaly"]
+    }
+  },
+  {
+    "row_id": 10,
+    "radiologist_report": "Study:_x000D_\nThoracic and abdominal radiography: six images dated September 26, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThe cardiac silhouette and pulmonary vasculature are normal in size. There is a mild generalized bronchial pulmonary pattern. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter and course. The abdominal serosal detail is normal. The stomach contains gas with the pylorus appropriately gas-filled on the left lateral image. The small intestines are mildly diffusely gas distended. The colon contains gas and formed fecal material with a normal diameter. The liver is normal in size and margin. The spleen appear is mildly to moderately enlarged in the left mid abdomen on the VD view. The renal silhouettes are normal in size and shape. The urinary bladder is normal in size and opacity. No skeletal abnormalities are present.",
+    "ai_report": "\n1.This result detects none, or equivocal/borderline to mild cardiomegaly. _x000D_\n\n2.This result does not detect pulmonary vasculature enlargement._x000D_\n\n3.Rarely, this result detects minimal pleural fissure lines/fluid.  _x000D_\n\n4.This result detects a minimal to mild, or rarely moderate interstitial pulmonary pattern.  _x000D_\n\n5.This result detects a minimal to mild bronchial pulmonary pattern._x000D_\n\n6.This result does not detect an alveolar pulmonary pattern._x000D_\n\n7.This result does not detect pulmonary soft tissue nodules.",
+    "results": {
+      "tp": ["bronchitis", "interstitial", "diseased_lungs"],
+      "fp": ["cardiomegaly", "pleural_effusion"],
+      "tn": [
+        "pulmonary_nodules",
+        "hypo_plastic_trachea",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "pulmonary_vessel_enlargement",
+        "thoracic_lymphadenopathy",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 11,
+    "radiologist_report": "Study:_x000D_\nThoracic/abdominal radiography: three images dated September 26, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThe cardiac silhouette is normal in size and shape. The pulmonary vasculature is normal in size. The pulmonary parenchyma is unremarkable. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter and course. The abdominal serosal detail is normal. The stomach contains minimal gas. The small intestines are normal in size, course and content. The colon contains formed fecal material with a normal diameter. The liver and spleen are normal in size and margin. Both renal silhouettes are on the lower limits of normal for size (approximately two times the length of L2 with smooth margination. The urinary bladder is normal in size and opacity. No skeletal abnormalities are present.",
+    "ai_report": "\n1.This result detects a minimal to mild interstitial pulmonary pattern.  _x000D_\n\n2.This result detects a minimal to mild, or rarely moderate bronchial pulmonary pattern._x000D_\n\n3.Rarely, this result detects a minimal alveolar pulmonary pattern._x000D_\n\n4.This result detects none, or equivocal/borderline to moderate cardiomegaly. _x000D_\n\n5.This result does not detect pulmonary vasculature enlargement._x000D_\n\n6.Rarely, this result detects minimal pleural fissure lines/fluid.  ",
+    "results": {
+      "tp": [],
+      "fp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "pleural_effusion",
+        "Fe_Alveolar"
+      ],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "cardiomegaly",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "thoracic_lymphadenopathy"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 12,
+    "radiologist_report": "Orthogonal views of the thorax and abdomen are provided._x000D_\n_x000D_\nThere is a moderate diffuse bronchial pulmonary pattern. No alveolar infiltrates or pleural effusion are identified. The heart is at the upper end of normal size range. Pulmonary vessels are normal._x000D_\n_x000D_\nThe colon is moderately dilated with gas and a small quantity of soft appearing fecal material. The small intestine in the stomach are unremarkable. Serosal detail in the abdomen is normal. The other organs are within normal size and shape limits.",
+    "ai_report": "\n1.This result detects none, or equivocal/borderline to moderate cardiomegaly. _x000D_\n\n2.This result detects a minimal to mild interstitial pulmonary pattern.  _x000D_\n\n3.This result detects a minimal to mild, or rarely moderate bronchial pulmonary pattern._x000D_\n\n4.Rarely, this result detects a minimal alveolar pulmonary pattern._x000D_\n\n5.This result does not detect pulmonary vasculature enlargement._x000D_\n\n6.Rarely, this result detects minimal pleural fissure lines/fluid.  ",
+    "results": {
+      "tp": ["bronchitis", "interstitial"],
+      "fp": ["cardiomegaly", "pleural_effusion", "Fe_Alveolar"],
+      "tn": ["pulmonary_vessel_enlargement"],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 13,
+    "radiologist_report": "Patient Name : Nymphadora Pass, Date of study: Sep 25, 2024\n7 images are provided for review\nFeline Thorax (7 Images) - 3 Lateral, 4 Vd\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A minimal to mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is moderately enlarged and tall with a rounded apex or slight reniform shape in the right lateral image.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "\n1.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern._x000D_\n\n2.No cardiomegaly detected._x000D_\n\n3.No significant pleural fluid detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "interstitial",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["bronchitis", "diseased_lungs", "cardiomegaly"]
+    }
+  },
+  {
+    "row_id": 14,
+    "radiologist_report": "Three orthogonal survey radiographs of the thorax and abdomen dated 25th September 2024 are available for review. There are no previous radiographs available for comparison. _x000D_\n_x000D_\nThorax: _x000D_\nAirway findings: The cervical and thoracic trachea have a normal size, outline and position. The carina, tracheal bifurcation and mainstem bronchi are normal. The pulmonary parenchyma is normal._x000D_\n_x000D_\nCardiovascular findings: The cardiac silhouette is normal in shape, size and margination. The cranial and caudal pulmonary vasculature is normal. The caudal vena cava is normal. The aorta and mainstem pulmonary artery have a normal outline in the vd/dv l image._x000D_\n_x000D_\nMediastinum and pleural space: A large smoothly marginated soft tissue opacity of approximately 3 x 1.4 cm is visible dorsal to the second sternal segment._x000D_\n_x000D_\nAbdomen: There is diffuse severe loss of serosal detail. Irregular poorly marginated soft tissue opacities/nodular opacities are visible throughout the ventral abdomen. The hepatic silhouette is mildly enlarged. The kidneys are partially obscured by gastrointestinal contents, but the visible aspect are normal. The spleen is poorly visible. The stomach contains gas and has a normal axis. The small intestines are poorly visible. The transverse and descending colon contains poorly formed faeces. The urinary bladder is poorly visible._x000D_\n_x000D_\nMusculoskeletal findings: The animal is in a thin body condition.",
+    "ai_report": "\n1.No airway or pulmonary abnormalities have been detected. The lung parenchyma appears normal with no interstitial, alveolar, or bronchial pattern identified. No definitive pulmonary nodules or other abnormalities are identified._x000D_\n\n2.No cardiomegaly is detected._x000D_\n\n3.No pleural fluid has been detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["thoracic_lymphadenopathy"]
+    }
+  },
+  {
+    "row_id": 15,
+    "radiologist_report": "Three radiographs of the thorax, and orthogonal views of the abdomen are provided. The cardiac silhouette and pulmonary vessels are normal size. On the VD projection there is a well-defined round 0.5 cm soft tissue opacity in the right 8th intercostal space. A smaller (0.3 cm) soft tissue nodular contour is seen in the lateral aspect of the left 6th and 8th intercostal spaces on the same projection. These contours are not definitively seen on the lateral views. No pleural effusion or intrathoracic lymphadenomegaly. Several small smoothly marginated ovoid mineral densities proximal to one of the tuber olecranon, incidental._x000D_\n_x000D_\nIn the abdomen there is no effusion or organomegaly. The gastrointestinal tract is minimally filled. No radiopaque urolithiasis. The kidneys, spleen, and liver are normal size and shape.",
+    "ai_report": "\n1.No significant pleural fluid detected._x000D_\n\n2.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern._x000D_\n\n3.No cardiomegaly detected.",
+    "results": {
+      "tp": ["pulmonary_nodules", "diseased_lungs", "focal_caudodorsal_lung"],
+      "fp": [],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 16,
+    "radiologist_report": "A three view thoracoabdominal study and a lateral view of the neck are provided._x000D_\n_x000D_\nNo laryngeal/pharyngeal or tracheal abnormalities are identified._x000D_\nThere is fairly homogenous soft tissue opacity obscuring most of the right hemithorax. Gas pocketing in the right side of the thorax is still present near midline caudally, in the area of the accessory lung lobe. The remaining aerated lung has a moderate to severe bronchial pattern._x000D_\nThere is also a discrete nodular shadow in the caudal ventral thorax suspected to be involving the right caudal ventral lung that has rounded shape and measures approximately 13 mm. There is also a more subtle small nodular shadow in the cranioventral lung at the first intercostal space that measures approximately 5 mm. There is ill defined increased opacity around the tracheal bifurcation that causes narrowing and ventral displacement of the carina. The heart appears to be within normal size and shape limits._x000D_\n_x000D_\nNo mass lesions or organomegaly are seen in the abdomen. There is a mild increase in intestinal gas overall and a few short segments of small intestine are mildly gas dilated. Serosal detail is normal.",
+    "ai_report": "\n1.This result detects a minimal to moderate bronchial pulmonary pattern._x000D_\n\n2.This result detects a mild to moderate interstitial pulmonary pattern._x000D_\n\n3.Rarely, this result detects a minimal alveolar pulmonary pattern._x000D_\n\n4.Rarely, this result detects minimal to mild pulmonary vasculature enlargement._x000D_\n\n5.This result detects minimal to moderate pleural fissure lines/fluid. _x000D_\n\n6.This result detects mild to severe cardiomegaly.",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "pleural_effusion",
+        "Fe_Alveolar"
+      ],
+      "fp": ["cardiomegaly", "pulmonary_ve,sel_enlargement"],
+      "tn": [
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": ["pulmonary_nodules"]
+    }
+  },
+  {
+    "row_id": 17,
+    "radiologist_report": "Opposite lateral and VD thoracoabdominal views are provided for interpretation._x000D_\n_x000D_\nThe heart appears slightly enlarged and rounded. Pulmonary vessels are normal. No pulmonary infiltrates or bronchial thickening are identified. The trachea has smooth walls and normal uniform diameter. The abdominal organs are unremarkable.",
+    "ai_report": "\n1.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern._x000D_\n\n2.No cardiomegaly detected._x000D_\n\n3.No significant pleural fluid detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "Fe_Alveolar"
+      ],
+      "fn": ["cardiomegaly"]
+    }
+  },
+  {
+    "row_id": 18,
+    "radiologist_report": "Study:_x000D_\nThoracic radiography: right lateral and orthogonal views (two images) dated September 25, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThere is moderate generalized cardiomegaly. The pulmonary vasculature is normal in size. There is a severe generalized bronchial pulmonary pattern. Some of the thickened bronchi seen end-on have a nodular appearance. The pleural space is normal. There is indistinct increased opacity dorsal to the second and third sternabrae on the lateral projection. The trachea is normal in diameter. The stomach contains unstructured heterogeneous soft tissue material presumed to be ingesta with few interspersed small mineral opacities. The osseous structures are unremarkable.",
+    "ai_report": "\n1.This result detects a minimal to moderate bronchial pulmonary pattern._x000D_\n\n2.This result detects a mild to moderate interstitial pulmonary pattern._x000D_\n\n3.Rarely, this result detects a minimal to mild alveolar pulmonary pattern._x000D_\n\n4.This result detects equivocal/borderline to severe cardiomegaly._x000D_\n\n5.Rarely, this result detects minimal to mild pulmonary vasculature enlargement._x000D_\n\n6.This result detect minimal to mild, or rarely moderate pleural fissure lines/fluid. ",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs", "cardiomegaly", "bronchiectasis"],
+      "fp": [
+        "interstitial",
+        "pleural_effusion",
+        "pulmonary_ve,sel_enlargement",
+        "Fe_Alveolar"
+      ],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 19,
+    "radiologist_report": "Patient Name : Monkey Takishima-Lacasa, Date of study: Sep 24, 2024\n6 images are provided for review\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: Multifocal thoracolumbar spondylosis deformans is present.  The remaining included thoracic musculoskeletal structures are normal.",
+    "ai_report": "\n1.This result detects minimal/equivocal to moderate cardiomegaly._x000D_\n\n2.This result does NOT detect an alveolar pulmonary pattern.  _x000D_\n\n3.This result detects minimal to mild, mixed interstitial and bronchial pulmonary patterns._x000D_\n\n4.Rarely, this result detects minimal to mild pleural fissure lines/fluid._x000D_\n\n5.This result does NOT detect soft tissue pulmonary nodules.",
+    "results": {
+      "tp": ["bronchitis", "interstitial"],
+      "fp": ["cardiomegaly", "pleural_effusion"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 20,
+    "radiologist_report": "Patient Name : Itabits Denmon, Date of study: Sep 24, 2024\n2 images are provided for review\nFeline Thorax (2 Images) - 1 Lateral, 1 Vd\nPrior images dated January 22, 2024 and previous are available.\n\nPulmonary parenchyma: A minimal to mild diffuse bronchial pattern is present.  The lungs are subjectively normal in overall size/inflation.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus contains a severe volume of gas and ventrally displaces the trachea and cardiac silhouette.  A tracheal stripe sign is present.\nPleural space: The pleural space is normal.\n\nLiver: The liver is subjectively normal in size.\nSpleen: The spleen is normal in size with smooth margins and homogeneous soft tissue.\nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is not identified, but no enlargement or mineral is present.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains a large volume of gas.  \nThe small intestine contains moderate gas with a subjectively uniform population for size. \nThe colon contains moderate well-defined soft tissue material and gas.  The colon is within normal limits for size.  \n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "\n1.No cardiomegaly detected._x000D_\n\n2.No significant pleural fluid detected._x000D_\n\n3.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern.",
+    "results": {
+      "tp": ["esophagitis"],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "interstitial",
+        "hypo_plastic_trachea",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["bronchitis", "diseased_lungs"]
+    }
+  },
+  {
+    "row_id": 21,
+    "radiologist_report": "Study:_x000D_\nThoracic/abdominal radiography: three images dated September 24, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThe cardiac silhouette and pulmonary vasculature are normal in size. The pulmonary parenchyma is unremarkable. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter and course. The abdominal serosal detail is normal. The stomach contains a small volume of gas. The small intestines are normal in size, course and content. The colon contains gas and formed fecal material with a normal diameter. The liver and spleen are normal in size and margin. The renal silhouettes are normal in size and contour. The urinary bladder is normal in size and opacity. The osseous structures are unremarkable/age appropriate.",
+    "ai_report": "\n1.This result detects mild to moderate cardiomegaly._x000D_\n\n2.This result detects a minimal to moderate bronchial pulmonary pattern._x000D_\n\n3.This result detects a minimal to mild interstitial pulmonary pattern._x000D_\n\n4.This result does NOT detect an alveolar pulmonary pattern._x000D_\n\n5.This result does NOT detect pleural fissure lines.",
+    "results": {
+      "tp": [],
+      "fp": ["bronchitis", "interstitial", "cardiomegaly"],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 24,
+    "radiologist_report": "Study:_x000D_\nThoracic radiography: three images dated September 24, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThe cardiac silhouette and pulmonary vasculature are normal in size. There is a mild caudodorsal bronchial pulmonary pattern. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter and course. There is no esophageal dilation. The included abdomen is normal. The osseous structures are unremarkable/age appropriate.",
+    "ai_report": "\n1.Rarely, this result detects minimal pleural fissure lines/fluid._x000D_\n\n2.This result detects equivocal/borderline cardiomegaly._x000D_\n\n3.This result detects a minimal, or rarely mild interstitial pulmonary pattern._x000D_\n\n4.This result detects a minimal to moderate bronchial pulmonary pattern._x000D_\n\n5.This result does NOT detect an alveolar pulmonary pattern.",
+    "results": {
+      "tp": ["bronchitis", "interstitial", "focal_caudodorsal_lung"],
+      "fp": ["cardiomegaly", "pleural_effusion"],
+      "tn": [
+        "esophagitis",
+        "hypo_plastic_trachea",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 25,
+    "radiologist_report": "3 views of the thorax are provided for review. There is a mild bronchial pattern in all lung lobes.  The cardiovascular structures are normal.  No esophageal dilation is seen.  The mediastinal and pleural structures are normal.  Cranial abdominal detail is adequate.",
+    "ai_report": "\n1.This result detects a minimal or mild bronchial pulmonary pattern._x000D_\n\n2.This result detects a  minimal to mild interstitial pulmonary pattern._x000D_\n\n3.This result does NOT detect an alveolar pulmonary pattern. _x000D_\n\n4.This result detects equivocal/borderline to moderate cardiomegaly._x000D_\n\n5.Rarely, this result detects minimal pleural fissure lines/fluid.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": ["interstitial", "cardiomegaly", "pleural_effusion"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 26,
+    "radiologist_report": "Patient Name : Thomas Jahn, Date of study: Sep 23, 2024\n5 images are provided for review\nThere are no previous radiographs for comparison.  Ventrodorsal image is mislabeled with \"R\" on the left of the patient given position of spleen.  \n\nLiver: The liver is slightly enlarged on the right in the ventrodorsal image, with a sharp caudoventral margin in the lateral images.  \nSpleen: The spleen is prominent and identified in the mid-ventral abdomen in the lateral images.  The spleen has smooth, well-defined margins.  \nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder contains at least one, well-defined ovoid or slightly stellate-shaped mineral focu.  the urinary bladder is normal in size, and smoothly marginated.\nPeritoneum: Peritoneal detail is adequate.\nGastrointestinal tract: The stomach contains moderate soft tissue material admixed with gas.   The stomach is within normal limits for size.\nThe small intestine contains mild gas and fluid or is empty with a subjectively uniform population for size. \nThe colon contains mild heterogeneous soft tissue material and gas.  The colon is within normal limits for size.  \n\nMusculoskeletal: The lucent region partially over the left abdomen is slightly variable in shape between examinations and is not identified in the lateral images.  The remaining  included musculoskeletal structures are normal.",
+    "ai_report": "\n1.This result detects mild to moderate cardiomegaly._x000D_\n\n2.This result does NOT detect pleural fissure lines. _x000D_\n\n3.This result detects a minimal to mild bronchial pulmonary pattern._x000D_\n\n4.This result detects a minimal to mild interstitial pulmonary pattern._x000D_\n\n5.This result does NOT detect  an alveolar pulmonary pattern._x000D_\n\n6.This result does NOT detect soft tissue pulmonary nodules.  ",
+    "results": {
+      "tp": ["bronchitis", "interstitial", "diseased_lungs", "cardiomegaly"],
+      "fp": [],
+      "tn": ["pulmonary_nodules", "Fe_Alveolar"],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 27,
+    "radiologist_report": "Patient Name : Bennett Xian, Date of study: Sep 23, 2024\n3 images are provided for review\nFeline Thorax (3 Images) - 2 Lateral, 1 Vd\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A minimal to mild diffuse bronchial pattern is present.  Minimal interstitial pattern over the cranial lungs is exacerbated by superimposed thoracic limbs.  \nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is mildly rounded and enlarged in the lateral image.  The cardiac silhouette is subjectively widened in the ventrodorsal image with a rounded right craniolateral margin, possibly exacerbated by obliquity.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "\n1.This result detects minimal/equivocal to moderate cardiomegaly._x000D_\n\n2.This result detects minimal to mild, mixed interstitial and bronchial pulmonary patterns._x000D_\n\n3.This result does NOT detect an alveolar pulmonary pattern.  _x000D_\n\n4.This result does NOT detect soft tissue pulmonary nodules._x000D_\n\n5.Rarely, this result detects minimal to mild pleural fissure lines/fluid.",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "right_sided_cardiomegaly"
+      ],
+      "fp": ["pleural_effusion"],
+      "tn": [
+        "pulmonary_nodules",
+        "hypo_plastic_trachea",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 28,
+    "radiologist_report": "Opposite lateral and VD views of the thorax and abdomen are provided._x000D_\n_x000D_\nThe heart is within normal size and shape limits. The right caudal lobe pulmonary arteries mildly enlarged, similar to previous radiographs dated 5-24-23. No pulmonary infiltrates or pleural effusion are seen._x000D_\n_x000D_\nThere is moderate to severe diffuse distention of the colon with soft appearing fecal material. The rectum is severely distended with a more formed appearing fecal ball. The small intestine is mildly gassy but nondistended. There is a linear metal foreign body compatible with a segment of fine wire or a small needle in the left cranial abdomen, which appears to be outside the GI tract. The right kidney is slightly small. The liver is at the small end of normal size range. Serosal detail is normal._x000D_\n_x000D_\nThere is severe disc space narrowing, endplate sclerosis, and spondylosis involving the lumbosacral junction. There is mild spondylosis in the thoracolumbar region. No destructive bone lesions are seen.",
+    "ai_report": "\n1.This result detects minimal to mild, mixed interstitial and bronchial pulmonary patterns._x000D_\n\n2.Rarely, this result detects a minimal to mild alveolar pulmonary pattern._x000D_\n\n3.This result detects mild to severe cardiomegaly._x000D_\n\n4.This result does NOT detect pleural fissure lines.  ",
+    "results": {
+      "tp": ["pulmonary_vessel_enlargement"],
+      "fp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "Fe_Alveolar"
+      ],
+      "tn": [
+        "pneumonia",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 30,
+    "radiologist_report": "Study:_x000D_\nThoracic/abdominal radiography: three images dated September 21, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThere is moderate generalized cardiomegaly (VHS approximately 9). The pulmonary vasculature is normal in size. There is a mild caudodorsal bronchial pulmonary pattern. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter. The abdominal serosal detail is normal. The stomach contains a small volume of gas. The small intestines are normal in size, course and content. The colon contains formed fecal material with a normal diameter. The liver and spleen are normal in size and margin. The renal silhouettes are normal in size and shape. The urinary bladder is normal in size and opacity. The osseous structures are unremarkable.",
+    "ai_report": "\n1.This result detects minimal/equivocal to moderate cardiomegaly._x000D_\n\n2.Rarely, this result detects minimal to mild pleural fissure lines/fluid._x000D_\n\n3.This result detects minimal to mild, mixed interstitial and bronchial pulmonary patterns._x000D_\n\n4.This result does NOT detect an alveolar pulmonary pattern.  _x000D_\n\n5.This result does NOT detect soft tissue pulmonary nodules.",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "diseased_lungs",
+        "cardiomegaly",
+        "focal_caudodorsal_lung"
+      ],
+      "fp": ["interstitial", "pleural_effusion"],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 31,
+    "radiologist_report": "Study:_x000D_\nThoracic radiography: three images dated September 21, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThe cardiac silhouette and pulmonary vasculature are normal in size. There is a mild caudodorsal bronchial pulmonary pattern. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter and course. The stomach contains heterogeneous soft tissue material presumed to be ingesta. The osseous structures are unremarkable.",
+    "ai_report": "\n1.Rarely, this result detects minimal to mild pleural fissure lines/fluid._x000D_\n\n2.This result detects minimal/equivocal to moderate cardiomegaly._x000D_\n\n3.This result detects minimal to mild, mixed interstitial and bronchial pulmonary patterns._x000D_\n\n4.This result does NOT detect an alveolar pulmonary pattern.  _x000D_\n\n5.This result does NOT detect soft tissue pulmonary nodules.",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "focal_caudodorsal_lung"
+      ],
+      "fp": ["cardiomegaly", "pleural_effusion"],
+      "tn": [
+        "pulmonary_nodules",
+        "hypo_plastic_trachea",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 32,
+    "radiologist_report": "Study:_x000D_\nCervical, thoracic and abdominal radiography: six images dated September 21, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThere is incidental cranioventral rotation of the cardiac silhouette. The cardiac silhouette is normal in size and shape. The pulmonary vasculature is normal in size. There is a 1 cm round soft tissue opaque nodule in the left caudal lung lobe. The pleural space is normal. Seen on both the lateral projections of the thorax and abdomen, there is a 0.5 cm gas lucency outlined by a soft tissue opaque rim ventral to the T9 vertebra. There is no intrathoracic lymphadenopathy. On the lateral projection of the cervical region, a small volume of gas in the proximal esophagus accentuates the upper esophageal sphincter/cricopharyngeal muscle. The larynx and pharynx are unremarkable. On the lateral projection of the thorax, there is a small volume of gas in the cranial aspect of the intrathoracic esophagus. The trachea is normal in diameter. The stomach is empty. There is a small amount of granular mineral scattered throughout the small intestines. The small intestines are normal in size and course. The colon contains formed fecal material and interspersed granular mineral with a normal diameter. The liver and spleen are normal in size and margin. The renal silhouettes are normal in size and contour. The urinary bladder is normal in size and opacity. There is narrowing of the L7-S1 intervertebral disc space with sclerotic endplates and moderate spondylosis deformans. The T9-T10 intervertebral disc space is also narrowed.",
+    "ai_report": "\n1.This result detects equivocal/borderline to mild cardiomegaly._x000D_\n\n2.This result detects a minimal to mild bronchial pulmonary pattern._x000D_\n\n3.This results detects a minimal to mild interstitial pulmonary pattern._x000D_\n\n4.Rarely, this result detects a minimal alveolar pulmonary pattern. _x000D_\n\n5.Rarely, this result detects minimal to mild pulmonary vasculature enlargement._x000D_\n\n6.Rarely,  this result detects minimal pleural fissure lines/fluid.  ",
+    "results": {
+      "tp": [],
+      "fp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "pleural_effusion",
+        "pulmonary_ve,sel_enlargement",
+        "Fe_Alveolar"
+      ],
+      "tn": [
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": ["pulmonary_nodules"]
+    }
+  },
+  {
+    "row_id": 33,
+    "radiologist_report": "Patient Name : PANDY SCENA, Date of study: Sep 21, 2024\n2 images are provided for review\nFeline Thorax (2 Images) - 1 Vd, 1 Lateral\nPrevious images dated [09/18/2024 Case#2764062] are available for comparison.\n\nPulmonary parenchyma: A moderate diffuse interstitial pattern is present, most severe in the cranioventral portion of the lungs.\nPulmonary vasculature: The pulmonary vasculature are subjectively diffusely enlarged and do not taper in the periphery of the lungs as expected.  Pulmonary vasculature margins are partially obscured by the interstitial pattern.\nCardiac silhouette: The cardiac silhouette is suspiciously tall in the lateral image but partially obscured.    The cardiac silhouette is rounded in the ventrodorsal image, possibly exacerbated by obliquity.\nMediastinum: The cranial mediastinum is normal.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: Mild pleural fluid is present with rounding of the caudal lung lobes in the diaphragmatic recesses, and widening of the pleural fissure between the right middle/caudal lung lobe.\n\nMusculoskeletal: The patient is obese.  The remaining included musculoskeletal structures are normal.",
+    "ai_report": "\n1.This result detects a mild to severe interstitial pulmonary pattern._x000D_\n\n2.This result detects a mild to severe bronchial pulmonary pattern._x000D_\n\n3.This result detects a minimal to moderate alveolar pulmonary pattern._x000D_\n\n4.Rarely, this result detects minimal to moderate pulmonary vasculature enlargement.  _x000D_\n\n5.This result detects minimal to severe pleural fissure lines/fluid._x000D_\n\n6.This result detects mild to severe cardiomegaly.",
+    "results": {
+      "tp": [
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "pleural_effusion",
+        "pulmonary_vessel_enlargement"
+      ],
+      "fp": ["bronchitis", "Fe_Alveolar"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "bronchiectasis",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 34,
+    "radiologist_report": "Four radiographs of the thorax/abdomen are provided. The cardiac silhouette is poor normal size. There is a well-defined smoothly marginated round 0.6 cm soft increased opacity overlying the cranial right liver on the VD projection, seen overlying the cranial liver/diaphragm on the lateral views. This nodule slightly changes position between the lateral views, suggesting that is located within the lungs rather than gallbladder. There is no pleural effusion._x000D_\n_x000D_\nIn the abdomen serosal detail is adequate. The left kidney is enlarged and smoothly irregular. The right kidney is lower normal size. The gastrointestinal tract is minimally filled. Normal size liver and spleen. No radiopaque urolithiasis.",
+    "ai_report": "\n1.No cardiomegaly detected._x000D_\n\n2.No significant pleural fluid detected._x000D_\n\n3.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern.",
+    "results": {
+      "tp": ["pulmonary_nodules", "diseased_lungs"],
+      "fp": [],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 35,
+    "radiologist_report": "Abdomen: The colon is filled with gas and fecal material.  On the left lateral view there is a segment of bowel within the mid to caudal abdomen that has ill-defined parallel soft tissue lines running longitudinally.  The segment also has small mineral opacities within it.  This is not identified on the other views.  The liver is unremarkable.  It is difficult to identify the spleen due to silhouetting and summation with adjacent viscera.  There are no abnormalities involving the visible portions of the urinary tract._x000D_\n_x000D_\nThorax: The pulmonary parenchyma, cardiac silhouette, and pulmonary vasculature are unremarkable.  There is no evidence of pleural effusion or lymphadenopathy.",
+    "ai_report": "\n1.No cardiomegaly detected._x000D_\n\n2.No significant pleural fluid detected._x000D_\n\n3.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 36,
+    "radiologist_report": "3 images of the thorax and abdomen are presented for review.  The cardiovascular structures are normal.  There is a diffuse interstitial pulmonary pattern that is considered appropriate for the age of the patient.  No pulmonary nodules or enlarged intrathoracic lymph nodes are seen.  The pleural and mediastinal structures are normal.  Abdominal serosal detail is adequate in all quadrants.  The stomach contains a moderate amount of soft tissue material.  The small intestines are normal in size.  Gas and feces are present in the colon.  The urinary bladder is moderately distended.  The remaining abdominal organs are normal.",
+    "ai_report": "\n1.No cardiomegaly detected._x000D_\n\n2.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern._x000D_\n\n3.No significant pleural fluid detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "bronchitis",
+        "diseased_lungs",
+        "cardiomegaly",
+        "pleural_effusion",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["interstitial"]
+    }
+  },
+  {
+    "row_id": 37,
+    "radiologist_report": "Patient Name : Hemi-Sama Riesberg, Date of study: Sep 20, 2024\n3 images are provided for review\nFeline Thorax (3 Images) - 2 Lateral, 1 Vd\nThere are no previous radiographs for comparison.\n\nPulmonary parenchyma: A minimal to mild diffuse bronchial and interstitial pattern is present.    the lungs are minimally hypoinflated, most severe in the right lungs in the ventrodorsal image.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is normal in size and shape.\nMediastinum:  A slight rightward mediastinal shift is present. The cranial mediastinum is normal.\nTrachea:  An endotracheal tube is present which terminates in the thoracic tracheal segment at the level of T2.  The trachea is normal.\nEsophagus: The esophagus contains mild gas or is empty.\nPleural space: The pleural space is normal.\n\nMusculoskeletal: Ill-defined lobular/convex soft tissue arises from the cranioventral extra-abdominal soft tissues, with mild associated gas.  The remaining included musculoskeletal structures are normal.",
+    "ai_report": "\n1.No cardiomegaly detected._x000D_\n\n2.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern._x000D_\n\n3.No significant pleural fluid detected.",
+    "results": {
+      "tp": ["rtm", "pulmonary_hypoinflation"],
+      "fp": [],
+      "tn": [
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "cardiomegaly",
+        "pleural_effusion",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["bronchitis", "interstitial", "diseased_lungs"]
+    }
+  },
+  {
+    "row_id": 38,
+    "radiologist_report": "Patient Name : GIRLIE WALLY, Date of study: Sep 20, 2024\n7 images are provided for review\nThere are no previous radiographs for comparison.\n\nLarge portions of human ungloved extremities in the primary beam of multiple images. Images are inconsistently labeled, limiting evaluation.  \n\nBones/Joints:\nMinimal right elbow osteoarthrosis is present.\nThe right shoulder is normal.\nThe included right carpus, metacarpus and digits are normal.\n\nCentered in the presumed left proximal humeral diaphysis and extending into the metaphysis is a well-defined geographic to moth-eaten region of osteolysis.  The cranial/caudal cortices are thinned as a result of this lesion.  Ill-defined periosteal proliferation is suspected at the cranial cortex of the left proximal humeral metaphysis.\nMinimal left elbow osteoarthrosis is present.\nThe included left carpus, metacarpus and digits are normal. \n\nT10-11 spondylosis deformans is present.\n\nSoft tissues:   The soft tissues cranial to the presumed left proximal humerus are focally enlarged and convex cranially.  The remaining included soft tissues are normal.",
+    "ai_report": "\n1.This result does NOT detect pleural fissure lines._x000D_\n\n2.This result detects mild to moderate cardiomegaly._x000D_\n\n3.This result detects a minimal to moderate bronchial pulmonary pattern._x000D_\n\n4.This result detects a minimal to mild interstitial pulmonary pattern._x000D_\n\n5.This result does NOT detect an alveolar pulmonary pattern. ",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "bronchiectasis"
+      ],
+      "fp": [],
+      "tn": ["pleural_effusion", "Fe_Alveolar"],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 39,
+    "radiologist_report": "Abdomen. Three radiographs of the abdomen/thorax (two lateral, one VD) dated September 20, 2024 are provided. As requested, the abdomen is interpreted.\n\nGastrointestinal tract: The duodenum was plicated on the lateral views. The small intestines are bunched in the mid abdomen and on the left lateral view there is an enlarged loop in the cranioventral abdomen which has an undulating margin and appears plicated. The pylorus on the left lateral view has a triangular-shaped gas-filled lumen, rather than round. A radiopaque foreign body is not identified.\nLiver: The liver is normal in size and shape.\nSpleen: The spleen is normal in size.\nUrinary: The kidneys are normal in size, shape, and margination. The urinary bladder is mildly distended and normal in opacity.\nPeritoneal space: There is adequate serosal detail.\n\nMusculoskeletal: The included skeletal and superficial soft tissue structures of the study are normal.",
+    "ai_report": "\n1.This result does NOT detect pleural fissure lines._x000D_\n\n2.This result detects equivocal/borderline to mild, or rarely moderate to severe cardiomegaly._x000D_\n\n3.This result detects a minimal to moderate bronchial pulmonary pattern._x000D_\n\n4.This result detects a minimal to mild interstitial pulmonary pattern._x000D_\n\n5.This result does NOT detect an alveolar pulmonary pattern._x000D_\n\n6.This result does NOT detect soft tissue pulmonary nodules.",
+    "results": {
+      "tp": [],
+      "fp": ["bronchitis", "interstitial", "diseased_lungs", "cardiomegaly"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 40,
+    "radiologist_report": "Patient Name : Flower Belderson, Date of study: Sep 20, 2024\n2 images are provided for review\nFeline Thorax (2 Images) - 1 Lateral, 1 Vd\nPrior images dated July 15, 2024 and previous are available.\n\n\nPulmonary parenchyma: A mild diffuse bronchial pattern is present.\nPulmonary vasculature: The pulmonary vasculature is subjectively normal in size and tapers in the periphery of the lungs.\nCardiac silhouette: The cardiac silhouette is tall in the lateral image.\nMediastinum: Ill-defined increased soft tissue is suspected in the cranial mediastinum in the lateral images.  Possible cranial/middle mediastinal widening in the oblique ventrodorsal image.\nTrachea: The trachea is normal.\nEsophagus: The esophagus is not well-identified.\nPleural space: The pleural space is normal.\n\nLiver: The liver  has a subjectively enlarged right lateral margin in the ventrodorsal image, extending past the level of the last ribs.  \nSpleen: The spleen is subjectively folded on itself in the left cranial abdomen in the ventrodorsal image.  The spleen has smooth, well-defined margins.  \nKidneys: The kidneys are normal in size and shape without obvious mineral.\nRetroperitoneum: Retroperitoneal detail is adequate.\nUrinary bladder/Urethra: The urinary bladder is normal in size, homogeneous soft tissue, and smoothly marginated.\nPeritoneum: Peritoneal detail is adequate. Suspected tubular soft tissue structures near the spleen in the left mid-abdomen in the ventrodorsal image.  \nGastrointestinal tract: The stomach contains a mild fluid or is empty.   The stomach is within normal limits for size.\nThe small intestine contains mild fluid or is empty with a subjectively uniform population for size. \nThe colon contains moderate well-defined soft tissue material and gas.  The colon is within normal limits for size.  \n\nMusculoskeletal: The included musculoskeletal structures are normal.",
+    "ai_report": "\n1.This result detects equivocal/borderline to mild cardiomegaly. _x000D_\n\n2.This result does not detect pulmonary vasculature enlargement._x000D_\n\n3.This result detects a minimal to mild, or rarely moderate interstitial pulmonary pattern.  _x000D_\n\n4.This result detects a minimal to mild, or rarely moderate bronchial pulmonary pattern._x000D_\n\n5.Rarely, this result detects a minimal to mild alveolar pulmonary pattern._x000D_\n\n6.This result does not detect pleural fissure lines/fluid.  ",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs", "cardiomegaly"],
+      "fp": ["interstitial", "Fe_Alveolar"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": ["thoracic_lymphadenopathy"]
+    }
+  },
+  {
+    "row_id": 41,
+    "radiologist_report": "Three radiographs of the thorax/abdomen are provided. Images dated 12/24/21 were reviewed. The cardiac silhouette is normal size and shape as before. Pulmonary vessels are normal size. There are no abnormalities in the pulmonary parenchyma or pleural space. Normal tracheal diameter. In the abdomen there is large volume soft tissue opaque ingesta in the stomach. Small bowel and minimally filled. Formed feces in the colon. No effusion or radiopaque urolithiasis. Normal-sized liver, spleen, and kidneys. Osseous structures are unremarkable.",
+    "ai_report": "\n1.This result detects none, or a minimal to mild interstitial pulmonary pattern.  _x000D_\n\n2.This result detects none, or a minimal to mild bronchial pulmonary pattern._x000D_\n\n3.Rarely, this result detects a minimal to mild alveolar pulmonary pattern._x000D_\n\n4.This result does not detect pulmonary soft tissue nodules._x000D_\n\n5.This result detects equivocal/borderline to mild, or rarely moderate cardiomegaly. _x000D_\n\n6.This result does not detect pulmonary vasculature enlargement._x000D_\n\n7.Rarely, this result detects minimal pleural fissure lines/fluid.  ",
+    "results": {
+      "tp": [],
+      "fp": [
+        "bronchitis",
+        "interstitial",
+        "cardiomegaly",
+        "pleural_effusion",
+        "Fe_Alveolar"
+      ],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 42,
+    "radiologist_report": "6 images of the thorax and abdomen are provided for review and compared with the study dated 5/8/2023. There is a mild bronchial pattern in all lung lobes, similar to previous images.  The cardiovascular structures are normal.  The mediastinal and pleural structures are normal.  Abdominal serosal detail is adequate in all quadrants.  The stomach contains a moderate amount of gas.  The small intestines are diffusely gas distended.  Gas and feces are present in the colon.  The urinary bladder is moderately distended.  The remaining abdominal organs are normal.",
+    "ai_report": "\n1.This result detects mild to moderate, or less commonly equivocal/borderline cardiomegaly._x000D_\n\n2.Rarely,  this result detects minimal pleural fissure lines/fluid.  _x000D_\n\n3.This result detects minimal to mild, mixed interstitial and bronchial pulmonary patterns._x000D_\n\n4.This result does NOT detect an alveolar pulmonary pattern.  ",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": ["interstitial", "cardiomegaly", "pleural_effusion"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 43,
+    "radiologist_report": "3 views of the thorax are provided for review. There is a mild bronchial pattern in all lung lobes.  The cardiovascular structures are normal.  The mediastinal and pleural structures are normal.  Cranial abdominal detail is adequate.",
+    "ai_report": "\n1.No cardiomegaly detected._x000D_\n\n2.No significant pleural fluid detected._x000D_\n\n3.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pneumonia",
+        "interstitial",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "thoracic_lymphadenopathy",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": ["bronchitis", "diseased_lungs"]
+    }
+  },
+  {
+    "row_id": 44,
+    "radiologist_report": "9 images of the abdomen are presented for review.  Serosal detail is adequate in all quadrants.  The stomach contains a moderate amount of gas.  The small intestines are plicated on all 3 series.  There is progressive dilation of small intestines.  Gas and feces are present in the colon.  The urinary bladder is small.  The remaining abdominal organs are normal.",
+    "ai_report": "\n1.No significant pleural fluid detected._x000D_\n\n2.No cardiomegaly detected._x000D_\n\n3.This screening does not detect an abnormal bronchial, interstitial, or alveolar pulmonary pattern.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "pleural_effusion",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 45,
+    "radiologist_report": "3 views of the abdomen are presented for review.  Serosal detail is adequate in all quadrants.  The stomach contains a moderate amount of gas.  The small intestines are normal in size.  Gas and mineral opaque feces are present in the colon.  The urinary bladder is small.  The remaining abdominal organs are normal.",
+    "ai_report": "\n1.This result detects a minimal to mild interstitial pulmonary pattern.  _x000D_\n\n2.This result detects a minimal to mild, or rarely moderate bronchial pulmonary pattern._x000D_\n\n3.Rarely, this result detects a minimal alveolar pulmonary pattern._x000D_\n\n4.This result detects none, or equivocal/borderline to moderate cardiomegaly. _x000D_\n\n5.This result does not detect pulmonary vasculature enlargement._x000D_\n\n6.Rarely, this result detects minimal pleural fissure lines/fluid.  ",
+    "results": {
+      "tp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "pleural_effusion",
+        "Fe_Alveolar"
+      ],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pulmonary_vessel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 46,
+    "radiologist_report": "4 images of the thorax are provided for review.  The cardiac silhouette is widened with rounding of the left ventricular border.  No pulmonary infiltrates are seen.  The pulmonary vasculature is normal in size.  The mediastinal and pleural structures are normal.  Cranial abdominal detail is adequate.",
+    "ai_report": "\n1.Rarely, this result detects a minimal alveolar pulmonary pattern._x000D_\n\n2.This result does not detect pulmonary vasculature enlargement._x000D_\n\n3.Rarely, this result detects minimal pleural fissure lines/fluid.  _x000D_\n\n4.This result detects none, or equivocal/borderline to moderate cardiomegaly. _x000D_\n\n5.This result detects a minimal to mild interstitial pulmonary pattern.  _x000D_\n\n6.This result detects a minimal to mild, or rarely moderate bronchial pulmonary pattern.",
+    "results": {
+      "tp": ["cardiomegaly", "left_sided_cardiomegaly"],
+      "fp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "pleural_effusion",
+        "Fe_Alveolar"
+      ],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 47,
+    "radiologist_report": "3 views of the thorax are presented for review.  The cardiovascular and pulmonary structures are normal.  The xiphoid is directed ventrally with a small osseous fragment seen dorsal to the caudal aspect of the xiphoid.  Focal soft tissue swelling is seen at the caudal aspect of the xiphoid.  The pleural and mediastinal structures are normal.  Cranial abdominal detail is adequate.",
+    "ai_report": "\n1.This result detects mild to moderate cardiomegaly._x000D_\n\n2.This result detects minimal to mild, mixed interstitial and bronchial pulmonary patterns._x000D_\n\n3.Rarely, this result detects a minimal alveolar pulmonary pattern._x000D_\n\n4.This result does NOT detect pleural fissure lines.  ",
+    "results": {
+      "tp": [],
+      "fp": [
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "cardiomegaly",
+        "Fe_Alveolar"
+      ],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 48,
+    "radiologist_report": "4 images of the abdomen are provided for review.  Serosal detail is reduced, most pronounced in the cranial abdomen and left lateral abdomen.  The stomach contains a moderate amount of gas and the rugal folds are prominent.  The small intestines are normal in size.  Gas and feces are present in the colon.  The urinary bladder is small.  The remaining abdominal organs are normal.",
+    "ai_report": "\n1.No cardiomegaly detected._x000D_\n\n2.No airway or pulmonary abnormalities have been detected. The lung parenchyma appears normal with no interstitial, alveolar, or bronchial pattern identified. No definitive pulmonary nodules or other abnormalities are identified._x000D_\n\n3.No significant pleural fluid detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 49,
+    "radiologist_report": "Six radiographs of the thorax and abdomen are provided. There are no abnormalities in the pharyngeal/laryngeal region. Both tympanic bullae are thin-walled and air-filled. Tracheal diameter and position are normal. There is small volume gas esophagus in the thoracic esophagus. No pleural effusion. The heart and pulmonary vessels are normal size. There are faint peripheral bronchial markings. In the abdomen there is adequate peritoneal and retroperitoneal detail. Moderate volume gas throughout the entire gastrointestinal tract. No radiopaque foreign material. Normal-sized kidneys, liver, spleen. No urinary bladder or osseous abnormalities.",
+    "ai_report": "\n1.This result does not detect pulmonary vasculature enlargement._x000D_\n\n2.This result detects none, or equivocal/borderline to moderate cardiomegaly. _x000D_\n\n3.This result detects a minimal to mild interstitial pulmonary pattern.  _x000D_\n\n4.This result detects a minimal to mild, or rarely moderate bronchial pulmonary pattern._x000D_\n\n5.Rarely, this result detects a minimal alveolar pulmonary pattern._x000D_\n\n6.Rarely, this result detects minimal pleural fissure lines/fluid.  ",
+    "results": {
+      "tp": ["bronchitis", "interstitial", "Fe_Alveolar"],
+      "fp": ["pleural_effusion"],
+      "tn": [
+        "pulmonary_nodules",
+        "esophagitis",
+        "hypo_plastic_trachea",
+        "cardiomegaly",
+        "perihilar_infiltrate",
+        "rtm",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 51,
+    "radiologist_report": "Study:_x000D_\nThoracic/abdominal radiography: three images dated September 18, 2024_x000D_\n_x000D_\nFindings:_x000D_\nThe cardiac silhouette and pulmonary vasculature are normal in size. The pulmonary parenchyma is unremarkable. The pleural space is normal. There is no intrathoracic lymphadenopathy. The trachea is normal in diameter and course. The stomach contains a small volume of gas. There is a smoothly marginated fragmented gas pattern in the small intestines. The small intestines are normal in size and course. The colon contains formed fecal material. The liver and spleen are normal in size and margin. The kidneys are normal in size and contour. The urinary bladder is normal in size and opacity. The osseous structures are unremarkable/age appropriate.",
+    "ai_report": "\n1.No airway or pulmonary abnormalities have been detected. The lung parenchyma appears normal with no interstitial, alveolar, or bronchial pattern identified. No definitive pulmonary nodules or other abnormalities are identified._x000D_\n\n2.No cardiomegaly is detected._x000D_\n\n3.No pleural fluid has been detected.",
+    "results": {
+      "tp": [],
+      "fp": [],
+      "tn": [
+        "pulmonary_nodules",
+        "pneumonia",
+        "bronchitis",
+        "interstitial",
+        "diseased_lungs",
+        "hypo_plastic_trachea",
+        "cardiomegaly",
+        "pleural_effusion",
+        "perihilar_infiltrate",
+        "focal_caudodorsal_lung",
+        "right_sided_cardiomegaly",
+        "focal_perihilar",
+        "left_sided_cardiomegaly",
+        "bronchiectasis",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pulmonary_hypoinflation",
+        "pericardial_effusion",
+        "Fe_Alveolar"
+      ],
+      "fn": []
+    }
+  },
+  {
+    "row_id": 52,
+    "radiologist_report": "Six radiographs of the thorax/abdomen are provided. In the thorax the cardiac silhouette and pulmonary vessels are normal size. There is a mild bronchial pattern throughout the lungs. No pleural effusion or intrathoracic lymphadenomegaly. Normal tracheal diameter. No esophageal dilation or intrathoracic lymphadenomegaly._x000D_\n_x000D_\nIn the abdomen there is no peritoneal or retroperitoneal effusion. Small volume gas in the stomach. Small bowel are diffusely mildly filled with a mixture of fluid and gas. Large volume of formed feces fills the colon. Normal-sized liver, kidneys, spleen. No radiopaque cystic calculi. Osseous structures are unremarkable.",
+    "ai_report": "\n1.Rarely, this result detects minimal pleural fissure lines._x000D_\n\n2.This result detects a minimal to mild or rarely moderate bronchial pulmonary pattern._x000D_\n\n3.This result detects a minimal to mild or rarely moderate interstitial pulmonary pattern._x000D_\n\n4.Rarely, this result detects a minimal to mild alveolar pulmonary pattern._x000D_\n\n5.This result detects mild to moderate, or rarely severe cardiomegaly.",
+    "results": {
+      "tp": ["bronchitis", "diseased_lungs"],
+      "fp": [
+        "interstitial",
+        "cardiomegaly",
+        "right_sided_cardiomegaly",
+        "left_sided_cardiomegaly",
+        "Fe_Alveolar"
+      ],
+      "tn": [
+        "esophagitis",
+        "pneumonia",
+        "hypo_plastic_trachea",
+        "pleural_effusion",
+        "pulmonary_ve,sel_enlargement",
+        "thoracic_lymphadenopathy",
+        "pericardial_effusion"
+      ],
+      "fn": []
+    }
+  }
+]

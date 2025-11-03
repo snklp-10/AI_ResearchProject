@@ -5,19 +5,20 @@ import re
 import pandas as pd
 from pathlib import Path
 from google import genai
+from dotenv import load_dotenv
+
+load_dotenv()
+
+api_key = os.getenv("GEMINI_API_KEY_FELINE")
+client = genai.Client(api_key=api_key)
 
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyAdd8u-SbuX8RXLFZPGYXlp5zVrfOKANLU"
-client = genai.Client()
-
-
-with open("canine_thorax_prompt.json", "r") as file:
+with open("feline_thorax_prompt.json", "r") as file:
     initial_prompt = json.load(file)
 
 input_file = Path(
-    r"C:\Users\snklp\Downloads\Research Student Assignments\Research Student Assignments\Input Data 1 - canine_thorax_scoring.xlsx"
+    r"C:\Users\snklp\Downloads\Research Student Assignments\Research Student Assignments\Input Data 2 - feline_thorax_scoring.xlsx"
 )
-
 
 # read from excel
 df_input = pd.read_excel(
@@ -25,12 +26,10 @@ df_input = pd.read_excel(
     usecols=["Findings (original radiologist report)", "Findings (AI report)"],
 )
 
-# use only 1st 10 columns
-df_input = df_input.head(10)
-
+df_input = df_input.head(50)
 
 output_json_path = Path(
-    r"C:\Users\snklp\Downloads\ResearchProject\ai_classification.json"
+    r"C:\Users\snklp\Downloads\ResearchProject\ai_classification_feline_thorax.json"
 )
 
 # ensure folder exists
