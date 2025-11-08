@@ -2,54 +2,40 @@ import json
 from openpyxl import load_workbook, Workbook
 from openpyxl.styles import numbers
 
-input_file = (
-    r"C:\Users\snklp\Downloads\ResearchProject\ai_classification_feline_thorax.json"
-)
-output_file = r"C:\Users\snklp\Downloads\Research Student Assignments\Research Student Assignments\Example Confusion Matrix Output.xlsx"
+input_file = r"C:\Users\snklp\Downloads\ResearchProject\classification_abdomen.json"
+output_file = r"C:\Users\snklp\Downloads\CM.xlsx"
 
-thorax_terms = [
-    "pulmonary_nodules",
-    "esophagitis",
-    "pneumonia",
-    "bronchitis",
-    "interstitial",
-    "diseased_lungs",
-    "hypo_plastic_trachea",
-    "cardiomegaly",
-    "pleural_effusion",
-    "perihilar_infiltrate",
-    "rtm",
-    "focal_caudodorsal_lung",
-    "right_sided_cardiomegaly",
-    "focal_perihilar",
-    "left_sided_cardiomegaly",
-    "bronchiectasis",
-    "pulmonary_ve,sel_enlargement",
-    "thoracic_lymphadenopathy",
-    "pulmonary_hypoinflation",
-    "pericardial_effusion",
-    "Fe_Alveolar",
+terms = [
+    "gastritis",
+    "ascites",
+    "colitis",
+    "liver_mass",
+    "pancreatitis",
+    "microhepatia",
+    "small_intestinal_obstruction",
+    "splenic_mass",
+    "splenomegaly",
+    "hepatomegaly",
 ]
 
-# Load JSON data
+# Load JSON
 with open(input_file, "r") as f:
     data = json.load(f)
 
 # Initialize counts dictionary
-counts = {term: {"fp": 0, "tp": 0, "fn": 0, "tn": 0} for term in thorax_terms}
+counts = {term: {"fp": 0, "tp": 0, "fn": 0, "tn": 0} for term in terms}
 
 # Count occurrences for each category
 for entry in data:
-    results = entry.get("results", {})
     for col in ["tp", "fp", "fn", "tn"]:
-        for term in results.get(col, []):
-            if term in thorax_terms:
+        for term in entry.get(col, []):
+            if term in terms:
                 counts[term][col] += 1
 
 # Handle output workbook and sheet naming
 code_run_count = 1
 while True:
-    sheet_name = f"Confusion_Matrix_{code_run_count}"
+    sheet_name = f"CM_{code_run_count}"
     try:
         wb = load_workbook(output_file)
         if sheet_name in wb.sheetnames:
@@ -60,7 +46,7 @@ while True:
         wb = None
         break
 
-# Create workbook if it doesn't exist
+# Create workbook if needed
 if wb is None:
     wb = Workbook()
 
@@ -83,7 +69,7 @@ column_headers = [
 ]
 ws.append(column_headers)
 
-# Fill sheet rows and formulas
+# Fill sheet rows + formulas
 row_start = 2
 for i, (term, result) in enumerate(counts.items(), start=row_start):
     ws.cell(i, 1, term)
@@ -105,10 +91,10 @@ for i, (term, result) in enumerate(counts.items(), start=row_start):
     ws.cell(i, 7).number_format = numbers.FORMAT_PERCENTAGE_00
     ws.cell(i, 12).number_format = numbers.FORMAT_PERCENTAGE_00
 
-# Remove default sheet if empty
+# Remove default sheet if blank
 if "Sheet" in wb.sheetnames and wb["Sheet"].max_row == 1:
     wb.remove(wb["Sheet"])
 
-# Save workbook
+# Save
 wb.save(output_file)
 print(f"✅ Confusion matrix saved in sheet '{sheet_name}'")

@@ -1,152 +1,127 @@
 import json
-import time
 import os
-import re
 import pandas as pd
 from pathlib import Path
-from google import genai
+from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = os.getenv("GEMINI_API_KEY_FELINE")
-client = genai.Client(api_key=api_key)
+client = OpenAI(api_key=os.getenv("OPEN_AI_APIKEY"))
 
-
+# Load compact prompt JSON
 with open("feline_thorax_prompt.json", "r") as file:
     initial_prompt = json.load(file)
 
+# Input Excel
 input_file = Path(
-    r"C:\Users\snklp\Downloads\Research Student Assignments\Research Student Assignments\Input Data 2 - feline_thorax_scoring.xlsx"
+    r"C:\Users\snklp\Downloads\Research Student Assignments1\Research Student Assignments\Input Data 2 - feline_thorax_scoring.xlsx"
 )
 
-# read from excel
 df_input = pd.read_excel(
     input_file,
     usecols=["Findings (original radiologist report)", "Findings (AI report)"],
 )
+df_input = df_input.head(1)
 
-df_input = df_input.head(50)
 
-output_json_path = Path(
-    r"C:\Users\snklp\Downloads\ResearchProject\ai_classification_feline_thorax.json"
+# ✅ New classification output
+classification_output_path = Path(
+    r"C:\Users\snklp\Downloads\ResearchProject\classification_feline_thorax.json"
 )
-
-# ensure folder exists
-output_json_path.parent.mkdir(parents=True, exist_ok=True)
-
-if not output_json_path.exists():
-    # Create empty JSON file if not present
-    with open(output_json_path, "w") as f:
-        json.dump([], f, indent=4)
-    all_results = []
-else:
-    with open(output_json_path, "r") as f:
-        try:
-            all_results = json.load(f)
-        except json.JSONDecodeError:
-            print("⚠️ Existing JSON is invalid, starting fresh.")
-            all_results = []
+classification_output_path.parent.mkdir(parents=True, exist_ok=True)
 
 
-def clean_ai_json(ai_text: str):
-    if not ai_text:
-        return None
-    # Remove code block markers like ```json ... ```
-    ai_text = re.sub(r"```(?:json)?", "", ai_text, flags=re.IGNORECASE).strip()
-    # Extract first JSON object
-    match = re.search(r"\{.*\}", ai_text, flags=re.DOTALL)
-    if match:
-        return match.group(0)
-    return None
+try:
+    with open(classification_output_path, "r") as f:
+        all_classifications = json.load(f)
+except:
+    all_classifications = []
 
 
-# iterate over every row
+# ✅ Build system prompt once
+SYSTEM_PROMPT = f"""
+You are an expert veterinary radiologist.
+
+Conditions:
+{", ".join(initial_prompt["conditions_to_identify"])}
+
+Synonyms:
+{json.dumps(initial_prompt["synonyms_mapping"])}
+
+Rules:
+{json.dumps(initial_prompt["tagging_rules"])}
+
+strict_output_instruction: "{...}\n{...}"
+
+Strictly Return only 2 JSON dictionaries on separate lines:
+1) Radiologist
+2) AI
+"""
+
+
+# ✅ Classification function
+def classify(row_id, rad, ai):
+    tp, tn, fp, fn = [], [], [], []
+
+    for cond, r_val in rad.items():
+        a_val = ai.get(cond)
+
+        if r_val == "pos" and a_val == "pos":
+            tp.append(cond)
+        elif r_val == "neg" and a_val == "neg":
+            tn.append(cond)
+        elif r_val == "pos" and a_val == "neg":
+            fn.append(cond)
+        elif r_val == "neg" and a_val == "pos":
+            fp.append(cond)
+
+    return {"row_id": row_id, "tp": tp, "tn": tn, "fp": fp, "fn": fn}
+
+
+# ✅ Process rows
 for idx, row in df_input.iterrows():
-    radiologist_report = str(row["Findings (original radiologist report)"])
-    ai_report = str(row["Findings (AI report)"])
+    row_num = idx + 1
+    print(f"Processing row {row_num}")
 
-    print(f"\nProcessing row {idx+1}:")
-    # print("Radiologist Report:", radiologist_report)
-    # print("Ai Report: ", ai_report)
+    user_prompt = f"""
+Radiologist Report:
+{row['Findings (original radiologist report)']}
 
-    final_prompt = f"""
-    Role:{initial_prompt['role']}
-    Description: {initial_prompt["description"]}
-
-    Objective:
-    -{";".join(initial_prompt["objective"])}
-
-    Conditions to identify:
-    - {"; ".join(initial_prompt['conditions_to_identify'])}
-
-    Classification rules:
-    - {"; ".join(initial_prompt['classification_rules'])}
-
-    Radiologist Report: {radiologist_report}
-    AI Report: {ai_report}
-
-    Output format (JSON only):
-    {{
-    "tp": [],
-    "fp": [],
-    "tn": [],
-    "fn": []
-    }}
-
-    Strict instruction:
-    {initial_prompt['strict_output_instruction']}
-
-    Example output:
-    {json.dumps(initial_prompt['example_output'], indent=2)}
-    """
+AI Report:
+{row['Findings (AI report)']}
+"""
 
     try:
-        # access gemini api
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=final_prompt,
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0.1,
         )
 
-        ai_output_text = response.text.strip()
+        output = response.choices[0].message.content
+        lines = [l.strip() for l in output.split("\n") if l.strip()]
 
-        # if no response is provided by ai
-        if not ai_output_text:
-            print(f"⚠️ Row {idx+1}: AI returned empty response. Skipping.")
+        if len(lines) < 2:
+            print(f"⚠️ Row {row_num}: Bad output")
             continue
 
-        # handle extra text
-        cleaned_text = clean_ai_json(ai_output_text)
-        if not cleaned_text:
-            print(f"⚠️ Row {idx+1}: Could not extract JSON. Skipping.")
-            continue
+        rad_dict = json.loads(lines[0])
+        ai_dict = json.loads(lines[1])
 
     except Exception as e:
-        print(f"⚠️ Error calling Gemini API: {e}")
+        print(f"❌ Error row {row_num}: {e}")
         continue
 
-    try:
-        ai_output = json.loads(cleaned_text)
-    except json.JSONDecodeError:
-        print(f"⚠️ Row {idx+1}: Invalid JSON returned by AI. Skipping row.")
-        print("Output was:", ai_output_text)
-        continue
+    class_entry = classify(row_num, rad_dict, ai_dict)
+    all_classifications.append(class_entry)
 
-    # Append result
-    entry = {
-        "row_id": idx + 1,
-        "radiologist_report": radiologist_report,
-        "ai_report": ai_report,
-        "results": ai_output,
-    }
+    # ✅ Save classification JSON after each append
+    with open(classification_output_path, "w") as f:
+        json.dump(all_classifications, f, indent=4)
 
-    all_results.append(entry)
-
-    # append json formatted output in json file
-    with open(output_json_path, "w") as f:
-        json.dump(all_results, f, indent=4)
-
-    print(f"✅ Row {idx+1} saved to {output_json_path}")
-    time.sleep(1)
-
-print("\n✅ All rows processed successfully")
+# print(f"✅ Classification results saved → {classification_output_path}")
+print("\n✅ All rows processed & saved successfully")

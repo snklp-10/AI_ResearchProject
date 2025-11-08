@@ -1,0 +1,52 @@
+{
+  "conditions_to_identify": [
+    "perihilar_infiltrate",
+    "pneumonia",
+    "bronchitis",
+    "interstitial",
+    "diseased_lungs",
+    "hypo_plastic_trachea",
+    "pulmonary_nodules",
+    "focal_caudodorsal_lung",
+    "focal_perihilar",
+    "pulmonary_hypoinflation",
+    "bronchiectasis",
+    "pulmonary_vessel_enlargement",
+    "pleural_effusion",
+    "cardiomegaly",
+    "rtm",
+    "right_sided_cardiomegaly",
+    "pericardial_effusion",
+    "left_sided_cardiomegaly",
+    "thoracic_lymphadenopathy",
+    "esophagitis",
+    "vhs_v2"
+  ],
+
+  "synonyms_mapping": {
+    "interstitial": [
+      "interstitial pattern",
+      "interstitial opacity",
+      "bronchointerstitial"
+    ],
+    "bronchitis": ["bronchial wall thickening"],
+    "pulmonary_nodules": ["nodular pattern"],
+    "pulmonary_hypoinflation": ["atelectasis"],
+    "hypo_plastic_trachea": ["narrow trachea"],
+    "focal_caudodorsal_lung": [
+      "caudodorsal lung opacity",
+      "caudodorsal focal opacity",
+      "caudodorsal lesion",
+      "focal opacity caudodorsal"
+    ]
+  },
+
+  "tagging_rules": [
+    "Tag pos only if explicitly stated; otherwise neg.",
+    "Uncertain terms (possible, equivocal, suspected) → neg.",
+    "If ANY lung abnormality (pneumonia, bronchitis, interstitial, pulmonary_nodules, focal findings) is pos → diseased_lungs = pos; else neg.",
+    "Output only two JSON dicts: radiologist first, AI second. and nothing else, no reasoning is to be outputted"
+  ],
+
+  "strict_output_instruction": "{...}\n{...}"
+}

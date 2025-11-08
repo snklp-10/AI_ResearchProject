@@ -1,0 +1,58 @@
+{
+  "conditions_to_identify": [
+    "pulmonary_nodules",
+    "esophagitis",
+    "pneumonia",
+    "bronchitis",
+    "interstitial",
+    "diseased_lungs",
+    "hypo_plastic_trachea",
+    "cardiomegaly",
+    "pleural_effusion",
+    "perihilar_infiltrate",
+    "rtm",
+    "focal_caudodorsal_lung",
+    "right_sided_cardiomegaly",
+    "focal_perihilar",
+    "left_sided_cardiomegaly",
+    "bronchiectasis",
+    "pulmonary_vessel_enlargement",
+    "thoracic_lymphadenopathy",
+    "pulmonary_hypoinflation",
+    "pericardial_effusion",
+    "Fe_Alveolar"
+  ],
+
+  "synonyms_mapping": {
+    "interstitial": [
+      "interstitial pattern",
+      "interstitial opacity",
+      "bronchointerstitial"
+    ],
+    "bronchitis": ["bronchial wall thickening"],
+    "pulmonary_nodules": ["nodular pattern"],
+    "pulmonary_hypoinflation": ["atelectasis"],
+    "hypo_plastic_trachea": ["narrow trachea"],
+    "focal_caudodorsal_lung": [
+      "caudodorsal lung opacity",
+      "caudodorsal focal opacity",
+      "caudodorsal lesion",
+      "focal opacity caudodorsal"
+    ],
+    "Fe_Alveolar": [
+      "alveolar pattern",
+      "alveolar opacity",
+      "air bronchogram",
+      "consolidation"
+    ]
+  },
+
+  "tagging_rules": [
+    "Tag pos only if explicitly stated; otherwise neg.",
+    "Uncertain terms (possible, equivocal, suspected) → neg.",
+    "If ANY lung abnormality (pneumonia, bronchitis, interstitial, pulmonary_nodules, focal findings) is pos → diseased_lungs = pos; else neg.",
+    "Output only two JSON dicts: radiologist first, AI second. and nothing else, no reasoning is to be outputted"
+  ],
+
+  "strict_output_instruction": "{...}\n{...}"
+}

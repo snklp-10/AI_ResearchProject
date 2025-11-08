@@ -1,0 +1,38 @@
+{
+  "conditions_to_identify": [
+    "gastritis",
+    "ascites",
+    "colitis",
+    "liver_mass",
+    "pancreatitis",
+    "microhepatia",
+    "small_intestinal_obstruction",
+    "splenic_mass",
+    "splenomegaly",
+    "hepatomegaly"
+  ],
+
+  "synonyms_mapping": {
+    "small_intestinal_obstruction": [
+      "structured soft tissue opaque material containing a striated gas pattern",
+      "mild gas dilation of multiple small intestinal segments"
+    ],
+
+    "liver_mass": ["hepatic lesion", "focal liver lesion"],
+
+    "microhepatia": ["small liver"],
+
+    "splenic_mass": ["splenic lesion"],
+
+    "splenomegaly": ["enlarged spleen"],
+
+    "hepatomegaly": ["enlarged liver"]
+  },
+
+  "tagging_rules": [
+    "Tag pos only if explicitly stated; otherwise neg.",
+    "Uncertain terms (possible, equivocal, suspected) → neg.",
+    "Output only two JSON dicts: radiologist first, AI second. and nothing else, no reasoning is to be outputted"
+  ],
+  "strict_output_instruction": "{...}\n{...}"
+}
