@@ -27,7 +27,7 @@ df_input = df_input.head(1)
 
 # ✅ New classification output
 classification_output_path = Path(
-    r"C:\Users\snklp\Downloads\ResearchProject\classification_feline_thorax.json"
+    r"C:\Users\snklp\Downloads\ResearchProject\classification_files\classification_feline.json"
 )
 classification_output_path.parent.mkdir(parents=True, exist_ok=True)
 

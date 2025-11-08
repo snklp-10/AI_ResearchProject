@@ -2,7 +2,7 @@ import json
 from openpyxl import load_workbook, Workbook
 from openpyxl.styles import numbers
 
-input_file = r"C:\Users\snklp\Downloads\ResearchProject\classification_abdomen.json"
+input_file = r"C:\Users\snklp\Downloads\ResearchProject\classification_files\classification_abdomen.json"
 output_file = r"C:\Users\snklp\Downloads\CM.xlsx"
 
 terms = [
