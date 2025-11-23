@@ -2,20 +2,31 @@ import json
 from openpyxl import load_workbook, Workbook
 from openpyxl.styles import numbers
 
-input_file = r"C:\Users\snklp\Downloads\ResearchProject\classification_files\classification_abdomen.json"
+input_file = r"C:\Users\snklp\Downloads\ResearchProject\classification_GT\groundTruth_feline.json"
 output_file = r"C:\Users\snklp\Downloads\CM.xlsx"
 
 terms = [
-    "gastritis",
-    "ascites",
-    "colitis",
-    "liver_mass",
-    "pancreatitis",
-    "microhepatia",
-    "small_intestinal_obstruction",
-    "splenic_mass",
-    "splenomegaly",
-    "hepatomegaly",
+    "pulmonary_nodules",
+    "esophagitis",
+    "pneumonia",
+    "bronchitis",
+    "interstitial",
+    "diseased_lungs",
+    "hypo_plastic_trachea",
+    "cardiomegaly",
+    "pleural_effusion",
+    "perihilar_infiltrate",
+    "rtm",
+    "focal_caudodorsal_lung",
+    "right_sided_cardiomegaly",
+    "focal_perihilar",
+    "left_sided_cardiomegaly",
+    "bronchiectasis",
+    "pulmonary_vessel_enlargement",
+    "thoracic_lymphadenopathy",
+    "pulmonary_hypoinflation",
+    "pericardial_effusion",
+    "Fe_Alveolar",
 ]
 
 # Load JSON
@@ -35,7 +46,7 @@ for entry in data:
 # Handle output workbook and sheet naming
 code_run_count = 1
 while True:
-    sheet_name = f"CM_{code_run_count}"
+    sheet_name = f"GT_CM_{code_run_count}"
     try:
         wb = load_workbook(output_file)
         if sheet_name in wb.sheetnames:

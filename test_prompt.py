@@ -10,24 +10,32 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPEN_AI_APIKEY"))
 
 # Load compact prompt JSON
-with open("feline_thorax_prompt.json", "r") as file:
+with open(
+    r"C:\Users\snklp\Downloads\ResearchProject\prompt_files\abdomen_prompt.json",
+    "r",
+) as file:
     initial_prompt = json.load(file)
+
+with open("radio_abdomen_report.json", "r") as f:
+    gt_data = json.load(f)
 
 # Input Excel
 input_file = Path(
-    r"C:\Users\snklp\Downloads\Research Student Assignments1\Research Student Assignments\Input Data 2 - feline_thorax_scoring.xlsx"
+    r"C:\Users\snklp\Downloads\Research Student Assignments1\Research Student Assignments\Input Data 3 - canine_abdomen_scoring.xlsx"
 )
 
 df_input = pd.read_excel(
     input_file,
-    usecols=["Findings (original radiologist report)", "Findings (AI report)"],
+    usecols=[
+        "Findings (original radiologist report)",
+    ],
 )
-df_input = df_input.head(1)
+df_input = df_input.head(50)
 
 
-# ✅ New classification output
+# New classification output
 classification_output_path = Path(
-    r"C:\Users\snklp\Downloads\ResearchProject\classification_files\classification_feline.json"
+    r"C:\Users\snklp\Downloads\ResearchProject\groundTruth_abdomen.json"
 )
 classification_output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -39,7 +47,7 @@ except:
     all_classifications = []
 
 
-# ✅ Build system prompt once
+#  Build system prompt once
 SYSTEM_PROMPT = f"""
 You are an expert veterinary radiologist.
 
@@ -52,15 +60,11 @@ Synonyms:
 Rules:
 {json.dumps(initial_prompt["tagging_rules"])}
 
-strict_output_instruction: "{...}\n{...}"
-
-Strictly Return only 2 JSON dictionaries on separate lines:
-1) Radiologist
-2) AI
+Return only a single valid JSON object with no code fences, no text, and no explanation—only the JSON itself.
 """
 
 
-# ✅ Classification function
+# Classification function
 def classify(row_id, rad, ai):
     tp, tn, fp, fn = [], [], [], []
 
@@ -79,7 +83,7 @@ def classify(row_id, rad, ai):
     return {"row_id": row_id, "tp": tp, "tn": tn, "fp": fp, "fn": fn}
 
 
-# ✅ Process rows
+# Process rows
 for idx, row in df_input.iterrows():
     row_num = idx + 1
     print(f"Processing row {row_num}")
@@ -87,9 +91,6 @@ for idx, row in df_input.iterrows():
     user_prompt = f"""
 Radiologist Report:
 {row['Findings (original radiologist report)']}
-
-AI Report:
-{row['Findings (AI report)']}
 """
 
     try:
@@ -103,25 +104,27 @@ AI Report:
         )
 
         output = response.choices[0].message.content
-        lines = [l.strip() for l in output.split("\n") if l.strip()]
+        # print(output)
+        # lines = [l.strip() for l in output.split("\n") if l.strip()]
 
-        if len(lines) < 2:
-            print(f"⚠️ Row {row_num}: Bad output")
-            continue
+        # if len(lines) < 2:
+        #     print(f"⚠️ Row {row_num}: Bad output")
+        #     continue
 
-        rad_dict = json.loads(lines[0])
-        ai_dict = json.loads(lines[1])
-
+        rad_dict = json.loads(output)
+        # ai_dict = json.loads(lines[1])
+        # print(rad_dict)
     except Exception as e:
         print(f"❌ Error row {row_num}: {e}")
         continue
 
-    class_entry = classify(row_num, rad_dict, ai_dict)
+    class_entry = classify(row_num, gt_data[idx], rad_dict)
+    # print(class_entry)
     all_classifications.append(class_entry)
 
-    # ✅ Save classification JSON after each append
+    # Save classification JSON after each append
     with open(classification_output_path, "w") as f:
         json.dump(all_classifications, f, indent=4)
 
-# print(f"✅ Classification results saved → {classification_output_path}")
+# print(f" Classification results saved → {classification_output_path}")
 print("\n✅ All rows processed & saved successfully")

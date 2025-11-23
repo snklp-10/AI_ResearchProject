@@ -1,0 +1,886 @@
+[
+  {
+    "row_id": 1,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 2,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": ["small_intestinal_obstruction"],
+    "fn": []
+  },
+  {
+    "row_id": 3,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 4,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": ["ascites", "splenic_mass"],
+    "fn": []
+  },
+  {
+    "row_id": 5,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 6,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 7,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 8,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 9,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": ["microhepatia"],
+    "fn": []
+  },
+  {
+    "row_id": 10,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 11,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly"
+    ],
+    "fp": ["ascites", "hepatomegaly"],
+    "fn": []
+  },
+  {
+    "row_id": 12,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 13,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 14,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": ["small_intestinal_obstruction"],
+    "fn": []
+  },
+  {
+    "row_id": 15,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 16,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": ["microhepatia"],
+    "fn": []
+  },
+  {
+    "row_id": 17,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 18,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 19,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 20,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 21,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 22,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 23,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 24,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": ["small_intestinal_obstruction"],
+    "fn": []
+  },
+  {
+    "row_id": 25,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 26,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": ["microhepatia"],
+    "fn": []
+  },
+  {
+    "row_id": 27,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 28,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "splenic_mass",
+      "splenomegaly"
+    ],
+    "fp": ["small_intestinal_obstruction", "hepatomegaly"],
+    "fn": []
+  },
+  {
+    "row_id": 29,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 30,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 31,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 32,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 33,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 34,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 35,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 36,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 37,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 38,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 39,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": ["microhepatia"],
+    "fn": []
+  },
+  {
+    "row_id": 40,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 41,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 42,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 43,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 44,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly"
+    ],
+    "fp": ["hepatomegaly"],
+    "fn": []
+  },
+  {
+    "row_id": 45,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 46,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 47,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly"
+    ],
+    "fp": ["hepatomegaly"],
+    "fn": []
+  },
+  {
+    "row_id": 48,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  },
+  {
+    "row_id": 49,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "hepatomegaly"
+    ],
+    "fp": ["splenomegaly"],
+    "fn": []
+  },
+  {
+    "row_id": 50,
+    "tp": [],
+    "tn": [
+      "gastritis",
+      "ascites",
+      "colitis",
+      "liver_mass",
+      "pancreatitis",
+      "microhepatia",
+      "small_intestinal_obstruction",
+      "splenic_mass",
+      "splenomegaly",
+      "hepatomegaly"
+    ],
+    "fp": [],
+    "fn": []
+  }
+]

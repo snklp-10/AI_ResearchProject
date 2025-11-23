@@ -32,7 +32,8 @@
   "tagging_rules": [
     "Tag pos only if explicitly stated; otherwise neg.",
     "Uncertain terms (possible, equivocal, suspected) → neg.",
-    "Output only two JSON dicts: radiologist first, AI second. and nothing else, no reasoning is to be outputted"
+    "Return only a single valid JSON object with no code fences, no text, and no explanation—only the JSON itself."
   ],
-  "strict_output_instruction": "{...}\n{...}"
+
+  "strict_output_instruction": "Return only a single valid JSON object with no code fences, no text, and no explanation—only the JSON itself."
 }
